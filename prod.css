@@ -355,12 +355,18 @@ nav a {
      }
 
     .footer {
-        margin-top: 100%;
+        margin-top: 150%;
 
     }
-
-
 } 
+
+@media only screen and (min-width:961px){
+    .logo-name{
+        font-size: 30px;
+        padding-right: 20px;
+
+    }
+}
 
 
 
