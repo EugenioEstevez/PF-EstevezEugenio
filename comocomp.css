@@ -5,6 +5,27 @@
     a: 0;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
 a {
     color: white;
 }
@@ -40,7 +61,7 @@ header {
 .logo-name {
     color: white;
     font-family: 'Lobster Two', cursive;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
@@ -70,7 +91,6 @@ nav a {
     padding-right: 20px;
 }
 
-/* NO TOQUE MA EL HEADER */
 
 /* MAIN */
 
