@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Eugenio Estevez</h1>
 <h3 align="center">A passionate developer from Argentina</h3>
 
-- Hi, I´m working on [Tienda de bebidas](https://github.com/EugenioEstevez/Tienda-de-bebidas)
+- Hi, I´m currently learning HTML/CSS
 
 - 👨‍💻 All of my projects are available at [https://github.com/EugenioEstevez/](https://github.com/EugenioEstevez/)
 
