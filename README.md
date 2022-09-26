@@ -7,9 +7,10 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/EugenioEstevez/](https://github.com/EugenioEstevez/)
 
-- 📫 How to reach me **eugenioestevez15@gmail.com**
+
 
 <h3 align="left">Connect with me:</h3>
+- 📫 How to reach me **eugenioestevez15@gmail.com**
 <p align="left">
 </p>
 
