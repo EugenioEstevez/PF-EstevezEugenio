@@ -1,0 +1,21 @@
+/* podemos agrupar estilos q sean de la misma familia, me almacena mas de 
+un valor pero de la misma familia
+
+$colores:
+red, 
+green,
+blue,
+pink;
+
+$font-size:
+22px,
+18px,
+12px;
+
+
+.header-background{
+   (anotacion)
+    andate a la lista colores y traeme la posicion 3, el color blue.
+
+    background-color: nth($colores,3);
+}

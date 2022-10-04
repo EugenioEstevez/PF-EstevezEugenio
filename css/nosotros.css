@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* reseteo */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+main {
+  font-family: "Lobster Two", cursive;
+}
+
+body {
+  background-color: grey;
+  background-image: url("imagenes/Atención-al-cliente.jpg");
+  background-size: 100%;
+}
+
+/* HEADER */
+header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* para q el logo este en una esquina y las secciones en otra */
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.logo-name {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+nav a {
+  padding-right: 20px;
+}
+
+/* NO TOQUE MA EL HEADER */
+/* MAIN */
+.h1-class {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 10px;
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
+.h2-class {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px black;
+}
+
+.h2-class-2 {
+  padding-top: 110px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 400px;
+  margin-right: 400px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 5px black;
+}
+
+/* cierra MAIN */
+/* FOOTER */
+footer {
+  background-color: black;
+}
+
+.caja-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-top: solid 1px lightblue;
+}
+
+.footer-logo-class {
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.lista-footer {
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+
+.img-footer {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+
+.liquor-store-footer {
+  color: white;
+  border-top: solid 1px lightblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

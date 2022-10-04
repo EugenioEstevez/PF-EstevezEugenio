@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/EugenioEstevez/Tienda-de-bebidas/issues"
   },
-  "homepage": "https://github.com/EugenioEstevez/Tienda-de-bebidas#readme"
+  "homepage": "https://github.com/EugenioEstevez/Tienda-de-bebidas#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
 }

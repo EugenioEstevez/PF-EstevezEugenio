@@ -1,0 +1,18 @@
+// mapas
+
+/*
+$boton:(
+    bg-boton:black,
+    border-botton: 2 px solid tomato,
+    color-text: white,
+    font-size: 20px
+    );
+
+    .boton{
+        background-color: map-get($boton , bg-boton );
+        border: map-get($boton, border-botton);
+
+        $header:(
+            bg-header:black,
+            decoration:none,
+            border-header:solid 2px pink;
