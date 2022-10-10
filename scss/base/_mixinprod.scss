@@ -1,0 +1,7 @@
+@mixin backgroundwhite {
+    background-color: white;
+}
+
+.lista {
+    @include backgroundwhite;
+}

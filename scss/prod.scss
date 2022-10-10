@@ -1,9 +1,13 @@
-/* reseteo */
-* {
+
+
+*{
     margin: 0;
     padding: 0;
-    
 }
+
+
+
+
 
 .grid-container {
     display: grid;
@@ -35,10 +39,6 @@ a:hover {
     color: grey;
 }
 
-main {
-    background-color: grey;
-    background-size: 100%;
-}
 
 body {
     background-color: grey;
@@ -56,25 +56,19 @@ body {
     align-items: center;
     padding: 10px;
     padding-right: 50px;
-}
 
 .logo-name {
     color: white;
     font-family: 'Lobster Two', cursive;
     font-size: 50px;
 }
-
-
 a {
     text-decoration: none;
-    
 }
-
 .logo {
     display: flex;
     align-items: center;
 }
-
 .logo img {
     height: 80px;
     width: 80px;
@@ -90,96 +84,40 @@ a {
 nav a {
     padding-right: 20px;
 }
+ }
+// cierra header
 
 
 
-/* NO TOQUE MA EL HEADER */
 
-/* BODY */
-.lista {
-    font-family: 'Lobster Two', cursive;
-    background-color: lightgrey;
-    padding-bottom: 35px;
-    padding-top: 35px;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    
-    }
-
-    .input-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Lobster Two', cursive;
-        padding-bottom: 10px;
-        padding-left: 50px;
-        padding-top: 100px ;
-        font-size: 40px;
-        }
-    .input {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 55px;
-    }
-    /* input listo */
-
-   .menu-main {
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    display: flex;
-    margin-right: 70px;
-    margin-left: 70px;
-    color: black;
-    padding-top: 100px;
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
-
-   }
-
-   .menu-main2 {
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    display: flex;
-    margin-right: 70px;
-    margin-left: 70px;
-    color: black;
-    padding-top: 100px;
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
-   }
+/* main */
+main {
+    background-color: grey;
+    background-size: 100%;
+    @import 'base/mixin';
 
 .bebida-1{
-    
+    font-size: 20px;
     width: 200px;
     height: 200px;
 }
-
-
 .gin {
     width: 200px;
     height: 200px;
     padding-bottom: 60px;
 }
-
-
    div p img {
     width:200px;
     height:200px;
    }
-    
-
+}
+/*cierra main*/
 
 
  footer {
     background-color: black;
     margin-top: 100px;
-}
+
 
 .caja-footer {
     align-items: center;
@@ -219,129 +157,117 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+ }
 
 /* mobile */
-
-@media only screen and (max-width:450px) {
-    .grid-container{
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr;
+@media only screen and (max-width: 450px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
     }
-     
-     .header {
-         background-color: black;
-         height: 87px;
-         width: 113%;
- 
-     }
- 
-     .grid-container {
-         display: grid;
-         grid-template-columns: 1fr;
-     }
- 
-    
-     .menu-main{
-         margin-left: 50%;
-         gap: 100px;
-     }
-     .menu-main2 {
-         margin-left: 50%;
-         gap: 100px;
-
- 
-     }
-     .Input {
-         margin-top: 100px;
-         margin-left: 15%;
-     }
- 
-     .lista {
-         background-color: lightgrey;
-         width: 122%;
-     }
- 
- 
-     .logo {
-         display: grid;
-         grid-template-columns: 70px 20px;
-         align-items: center;
-         width: 20%;
-         padding-top: 20px;
-         
-     }
-     .logo img {
-         height: 65px;
-         width: 60px;
-         padding-bottom: 13px;
- 
-     }
- 
-     .logo-name {
-         color: white;
-         font-family: 'Lobster Two', cursive;
-         font-size: 25px;
-         padding-bottom: 13px;
- 
-     }
-     .menu {
-         display: grid;
-         grid-template-columns: repeat(5, 28px);
-         position: relative;
-         right: 100px;
-         align-items: center;
-         top: 25px;
-         font-size: 20px;
-         padding-left: 30px;
-         
-     }
- 
-     .footer {
-         display: grid;
-         background-color: black;
-         grid-row: span 3;
-         width: 122%;
-     }
-     
-     .img-footer {
-         
-         padding-left: 60px;
-     }
- 
- .menu-main{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: auto;
-
- }
- .menu-main2{
-    display: grid;
-    grid-template-columns: 1fr;
-
- }
-}
-
-@media only screen and (min-width:451px) and (max-width:960px){
-
+    .header {
+      background-color: black;
+      height: 150px;
+      width: 125%;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .menus-main {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 100px;
+    }
+    .menu-main {
+      margin-left: 50%;
+      gap: 100px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+    }
+    .menu-main2 {
+      margin-left: 50%;
+      gap: 100px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .Input {
+      margin-top: 100px;
+      margin-left: 15%;
+    }
+    .lista {
+      background-color: lightgrey;
+      width: 122%;
+    }
+    .logo {
+      display: grid;
+      grid-template-columns: 70px 20px;
+      align-items: center;
+      width: 20%;
+      padding-top: 20px;
+    }
+    .logo img {
+      height: 65px;
+      width: 60px;
+      padding-bottom: 13px;
+    }
     .logo-name {
-        font-size: 25px;
-        padding-right: 20px;
+      color: white;
+      font-family: "Lobster Two", cursive;
+      font-size: 25px;
+      padding-bottom: 13px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(5, 28px);
+      position: relative;
+      right: 100px;
+      align-items: center;
+      top: 25px;
+      font-size: 20px;
+      padding-left: 30px;
+    }
+    .footer {
+      display: grid;
+      background-color: black;
+      width: 115%;
+      margin-top: 160%;
+    }
+    .img-footer {
+      padding-left: 60px;
     }
 
-    .menu{ 
+    ul.menu{
+        font-size: 30px;
         align-items: center;
+        position: relative;
+        bottom: 20px;
+        left: 20px;
     }
+    
+    
+  }
+@media only screen and (min-width:451px) and (max-width:960px){
+    header { 
+    .logo-name{
+        width: 70px;
+        height: 70px;
+        font-size: 50px;
+        padding-right: 65px;
+    }
+}
 
     .menu-main{
         display: grid;
-        grid-template-columns: repeat(4 , 1fr);
+        grid-template-columns: repeat(3 , 1fr);
         margin-left: 20%;
     }
 
     .menu-main2{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3 , 1fr);
         margin-left: 20%;
         
      }
@@ -358,13 +284,15 @@ nav a {
         margin-top: 150%;
 
     }
-} 
+
 
 @media only screen and (min-width:961px){
     .logo-name{
-        font-size: 30px;
+        font-size: 15px;
         padding-right: 20px;
 
     }
 }
 
+@import "base/extend";
+}

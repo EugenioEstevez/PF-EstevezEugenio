@@ -1,5 +1,7 @@
 /* reseteo */
 
+
+/* HEADER */
 .header {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -10,8 +12,36 @@
     align-items: center;
     padding: 10px;
     padding-right: 50px;
-}
 
+   .logo{
+    display: flex;
+    align-items: center;
+   }
+   .logo img{
+    height: 80px;
+    width: 80px;
+    display: flex;
+   }
+   .logo-name{
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+   }
+   nav a{
+    padding-right: 20px;
+   }
+   .menu{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    font-size: 20px;
+    color: white;
+   }
+   a {
+    text-decoration: none;
+}
+}
+/* Termina Header*/
 
 a {
     color: white;
@@ -21,169 +51,77 @@ a:hover {
     color: grey;
 }
 
-main {
-    background-color: grey;
-    background-size: 100%;
-}
-
 body {
     background-color: grey;
     margin: 0;
 }
 
-/* HEADER */
 
-
-
-.logo-name {
-    color: white;
-    font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-}
-
-
-a {
-    text-decoration: none;
-
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 80px;
-    width: 80px;
-    display: flex;
-}
-
-.menu {
-    display: flex;
-    list-style: none;
-    gap: 100px;
-    font-size: 20px;
-    color: white;
-}
-
-nav a {
-    padding-right: 20px;
-}
-
-
-
-/* NO TOQUE MA EL HEADER */
 
 /* Main */
+ main {
+    background-color: grey;
+    background-size: 100%;
 
-
-.img-div {
-
-    padding-top: 70px;
-    display: flex;
-    justify-content: space-around;
+    .img-h4 {
+        background-color: black;
+        border: solid 1px white;
+        margin-bottom: 50px;
+        width: 350px;
+        height: 350px;
+        margin-top: 30px;
+    }
+    .h4-class {
+        font-family: 'Lobster Two', cursive;
+        display: grid;
+        margin-right: 20%;
+        margin-top: 27px;
+        font-size: 50px;
+    }
+    .h1-class {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .img-amigos {
+        width: 400px;
+        height: 300px;
+        border: solid 2px black;
+        margin-right: 100px;
+    }
+    .principal-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        grid-column-gap: 100px;
+        grid-row-gap: 80px;
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+    .h2-class {
+        font-family: 'Lobster Two', cursive;
+        font-size: 50px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: lightgrey;
+    }
+    .img-class {
+        background-color: black;
+        border: solid 3px white;
+        width: 300px;
+        height: 350px;
+    }
 }
 
-.img-h4 {
-    background-color: black;
-    border: solid 1px white;
-    margin-bottom: 50px;
-    width: 350px;
-    height: 350px;
-    margin-top: 30px;
-    
-}
-
-.h4-class {
-    font-family: 'Lobster Two', cursive;
-    display: grid;
-    margin-right: 20%;
-    margin-top: 27px;
-    font-size: 50px;
-}
-
-
-.h1-class {
-    margin-top: 40px;
-    margin-left: 30px;
-}
-
-.img-amigos {
-    width: 400px;
-    height: 300px;
-    border: solid 2px black;
-    margin-right: 100px;
-}
-
-/* NO TOCAR al menos q sean mejoras */
-
-
-
-/* en proceso */
-
-
-.ul-lista2 {
-    border: solid 2px black;
-    font-family: 'Roboto', sans-serif;
-    background-color: lightgrey;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-    font-size: 25px;
-    color: black;
-    margin-top: 100px;
-}
-
-/* listo */
-
-/* aplicamos GRID */
-.principal-content {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    justify-content: center;
-    grid-column-gap: 100px;
-    grid-row-gap: 80px;
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
-
-
-
-}
-
-
-
-.h2-class {
-    font-family: 'Lobster Two', cursive;
-    font-size: 50px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    background-color: lightgrey;
-
-}
-
-.img-class {
-    background-color: black;
-    border: solid 3px white;
-    width: 300px;
-    height: 350px;
-}
-
-
-
-
-
-/* LISTO EL MAIN NO TOCAR POR AHORA */
 /*cierra main*/
+
 /* FOOTER */
-footer {
-    background-color: black;
-}
+@import 'base/mixin';
+
+footer{
 
 .caja-footer {
     align-items: center;
@@ -191,7 +129,6 @@ footer {
     justify-content: space-between;
     border-top: solid 1px lightblue;
 }
-
 .footer-logo-class {
     align-items: center;
     width: 80px;
@@ -199,14 +136,12 @@ footer {
     padding-left: 10px;
     padding-top: 20px;
 }
-
 .lista-footer {
     align-items: center;
     padding-left: 60%;
     list-style: none;
     color: white;
 }
-
 .img-footer {
     margin-right: 20px;
     display: flex;
@@ -214,8 +149,6 @@ footer {
     height: 30px;
     width: 30px;
 }
-
-
 .liquor-store-footer {
     color: white;
     border-top: solid 1px lightblue;
@@ -224,12 +157,12 @@ footer {
     justify-content: center;
     align-items: center;
 }
+}
 
 /* MEDIAQUERY */
 /* MOBILE */
 @media only screen and (max-width:450px) {
    
-
     .grid-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -237,8 +170,8 @@ footer {
 
     .principal-content {
         display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 35%;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30%;
         margin-top: 300px;
     }
 
@@ -251,36 +184,28 @@ footer {
         font-family: 'Roboto', sans-serif;
         display: grid;
         /* para q el logo este en una esquina y las secciones en otra */
-        height: 60%;
-        width: 100%;
-    }
-
-    .logo-name {
-        color: white;
-        font-family: 'Lobster Two', cursive;
-        font-size: 30px;
-
-    }
-
-
+        width: 125%;
+        height: 150px;
+        padding-left: 100px;
+    
     a {
         text-decoration: none;
 
     }
+    .logo-name {
+        font-size: 45px;
+      }
 
-    .logo {
+.logo {
         display: grid;
         grid-template-columns: 80px 30px;
         width: 20%;
         align-items: center;
-        padding-top: 20px;
-    }
-
+}
     .logo img {
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
     }
-
     .menu {
         display: grid;
         grid-template-columns: repeat(5, 100px);
@@ -288,12 +213,13 @@ footer {
         font-size: 28px;
         color: white;
         grid-column-gap: 80px;
-        padding-left: 35%;
+        padding-left: 50%;
         align-items: center;
         position: relative;
-        bottom: 50px;
-
+        bottom: 150px;
     }
+}
+    
 
     /* TERMINA HEADER */
 
@@ -306,11 +232,7 @@ footer {
 
     .img-div {
         padding-top: 70px;
-        margin-left: 50px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-content: space-between;
-        width: 90%;
+        margin-left: 30%;
     }
 
     .img-h4 {
@@ -323,21 +245,23 @@ footer {
         margin-right: 100px;
     }
 
-    .h4-class {
-        font-family: 'Lobster Two', cursive;
-        margin-top: 27px;
-        font-size: 40px;
-        margin-right: 50px;
+    .img-amigos{
+        position: relative;
+        left: 300px;
+        visibility: hidden;
     }
+
+    
+
+    
 
     .h1-class {
         margin-top: 40px;
         margin-left: 30px;
     }
 
-    .img-amigos {
-        visibility: hidden;
-    }
+ 
+    
 
     /* NO TOCAR al menos q sean mejoras */
 
@@ -352,7 +276,7 @@ footer {
         justify-content: space-around;
         font-size: 25px;
         color: black;
-        margin-left: 20px;
+        margin-left:25%;
 
         margin-top: 100px;
     }
@@ -368,8 +292,9 @@ footer {
         font-size: 50px;
         display: grid;
         align-items: center;
-         margin-left: 20px;
+        margin-left: 20px;
         background-color: lightgrey;
+        margin-left:25%;
     }
 
     .img-class {
@@ -382,7 +307,7 @@ footer {
     .footer {
         display: grid;
         background-color: black;
-        width: 105%;
+        width: 140%;
         margin-top: 100%;
     }
 }
@@ -390,33 +315,31 @@ footer {
 /* tablet */
 
 @media only screen and (min-width:451px) and (max-width:960px) {
+    
+    body{ display: grid;
+
+    }
+    
+    
     .principal-content {
         background-color: grey;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 15px;
         grid-column-gap: 2px;
-        margin-left: 50px;
         margin-top: 200px;
         gap: 20px;
     }
+header{
 
     .menu {
         padding-left: 20px;
         align-items: center;
     }
-
-    .logo {
-        display: grid;
-        grid-template-columns: repeat(6,1fr);
-        align-items: center;
-    }
-
     .logo-name{
-        font-size: 25px;
-
+        padding-right: 50px;
     }
-    
+}
     .img-div{
         margin-left: 100px;
     }
@@ -445,12 +368,13 @@ footer {
 }
 
     @media only screen and (min-width:961px) {
-
         .logo-name{
             font-size: 35px;
             padding-right: 35px;
         }
     } 
+
+    
 
     // // @import
 
@@ -460,8 +384,11 @@ footer {
     // @import "base/estilosGenerales"
     // @import "base/variables";
     // @import "components/footer.scss";
-    // @import "base/listas.scss";
     // @import "base/mapas"
+    @import 'base/extend';
+    // IMG-DIV ESTA EN _EXTEND.SCSS
+    @import 'base/mixin';
+    @import "base/listas.scss";
 
 
  

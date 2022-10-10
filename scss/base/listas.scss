@@ -1,21 +1,54 @@
-/* podemos agrupar estilos q sean de la misma familia, me almacena mas de 
-un valor pero de la misma familia
+//  podemos agrupar estilos q sean de la misma familia, me almacena mas de 
+// un valor pero de la misma familia
 
-$colores:
-red, 
-green,
-blue,
-pink;
+// $colores:
+// red, 
+// green,
+// blue,
+// pink;
 
-$font-size:
-22px,
-18px,
-12px;
+// $font-size:
+// 22px,
+// 18px,
+// 12px;
 
 
-.header-background{
-   (anotacion)
-    andate a la lista colores y traeme la posicion 3, el color blue.
+// .header-background{
+//    (anotacion)
+//     andate a la lista colores y traeme la posicion 3, el color blue.
 
-    background-color: nth($colores,3);
+//     background-color: nth($colores,3);
+// }
+
+
+$font-family:
+'Lobster Two', cursive,
+'Roboto', sans-serif;
+
+.h4-class{
+    font-family: nth($font-family,1);
+    display: grid;
+    margin-right: 20%;
+    margin-top: 27px;
+    font-size: 50px;
 }
+
+.ul-lista2{
+        font-family: nth($font-family, 3 );
+        @include border;
+        @include backgroundwhite;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 25px;
+        color: black;
+        margin-top: 100px;
+}
+
+
+
+
+
+
