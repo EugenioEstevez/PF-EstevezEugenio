@@ -1,0 +1,51 @@
+$font-size:
+50px,
+30px;
+
+$margin:
+400px;
+
+
+.h1-class{
+    font-size: nth($font-size,1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 10px;
+    color: black;
+    text-shadow: 5px 5px grey;
+}
+
+.h2-class{
+    font-size: nth($font-size,2);
+    margin-left: nth($margin,1);
+    margin-right: nth($margin,1);
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    text-shadow: 5px 5px grey;
+}
+
+.h2-class-2{
+    font-size: nth($font-size,2);
+    margin-left: nth($margin,1);
+    margin-right: nth($margin,1);
+    padding-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    text-shadow: 5px 5px grey;
+
+
+}
+
+
+
+
+
+
+
