@@ -1,0 +1,21 @@
+@mixin font-family {
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.h3{
+    @include font-family;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.h1{
+    @include font-family;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 80px;
+}
+

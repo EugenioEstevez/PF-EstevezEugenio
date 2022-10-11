@@ -1,0 +1,59 @@
+
+
+%dflex {
+    display: flex;
+}
+
+.h1 {
+    @extend %dflex;
+    
+}
+.h3 {
+    @extend %dflex;
+}
+
+.input {
+    @extend %dflex;
+
+}
+
+.input-class{
+    @extend %dflex;
+
+}
+
+.input-class-2{
+    @extend %dflex;
+
+}
+
+.div-contact {
+    @extend %dflex;
+
+}
+
+
+
+%heightwidth {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.phone-class{
+    @extend %heightwidth;
+}
+
+.map-class{
+    @extend %heightwidth;
+
+}
+
+.msj-class{
+    @extend %heightwidth;
+}
+
+
+
+
+

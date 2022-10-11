@@ -36,7 +36,6 @@ header {
     align-items: center;
     padding: 10px;
     padding-right: 50px;
-}
 
 .logo-name {
     color: white;
@@ -71,43 +70,27 @@ nav a {
     padding-right: 20px;
 }
 
-/* NO TOQUE MA EL HEADER */
-
+}
 /* MAIN */
+main{
+    @import "base/_extendcontact.scss";
+    @import "base/mixincontact";
 
-h1 {
-    font-family: 'Lobster Two', cursive;
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
-h3 {
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
 
 /* listo */
 .input {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .input-class {
-    display: flex;
     gap: 40px;
     justify-content: space-around;
     justify-content: space-evenly;
 }
 
 .input-class-2 {
-    display: flex;
     justify-content: center;
     padding-top: 100px;
     margin-bottom: 100px;
@@ -118,7 +101,6 @@ h3 {
 /* listo por ahora */
 
 .div-contact {
-    display: flex;
     justify-content: space-around;
     background-color: white;
     padding-bottom: 25px;
@@ -129,28 +111,10 @@ h3 {
 
 }
 
-.phone-class {
-    height: 100px;
-    width: 100px;
-    display: flex;
 }
-
-.map-class {
-    height: 100px;
-    width: 100px;
-    display: flex;
-}
-
-.msj-class{
-    height: 100px;
-    width: 100px;
-    display: flex;
-}
-
 /* FOOTER */
 footer {
     background-color: black;
-}
 
 .caja-footer {
     align-items: center;
@@ -184,10 +148,112 @@ footer {
 
 
 .liquor-store-footer {
+    align-items: center;
     color: white;
     border-top: solid 1px lightblue;
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
+}
+
+
+
+@media only screen and (max-width:450px) {
+    header{
+        width: 230%;
+        height: 100px;
+        .menu{
+            align-items: center;
+            padding-left: 20px;
+            gap: 20px;
+            font-size: 28px;
+        }
+        .logo{
+            padding-right: 30px;
+        }
+        .logo-name{
+            font-size: 30px;
+        }
+    }
+    main{
+        width: 200%;
+        display: grid;
+        margin-left: 15%;
+        input{
+            width: 250px;
+            height: 50px;
+        }
+    }
+    footer{
+        width: 245%;
+        margin-top: 180%;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:960px){
+     header{
+        width: 225%;
+        height: 100px;
+        .menu{
+            width: 100%;
+            padding-top: 10px;
+            gap: 15px;
+            font-size: 25px;
+            padding-left: 20px;
+        }
+        .logo-name{
+            font-size: 30px;
+            padding-right: 20px;
+        }
+     }
+
+     main{
+        width: 220%;
+        margin-left: 5%;
+        margin-top: 50%;
+
+        .div-contact{
+            margin-top: 50%;
+        }
+     }
+
+     footer{
+        width: 230%;
+        margin-top: 190%;
+
+     }   
+    }
+    @media only screen and (min-width:961px) and (max-width:1035px){
+
+        header{
+            width: 1000px;
+
+            .menu{
+                padding-left: 20px;
+                gap: 30px;
+
+            }
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
