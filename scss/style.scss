@@ -122,7 +122,7 @@ body {
 @import 'base/mixin';
 
 footer{
-
+    
 .caja-footer {
     align-items: center;
     display: flex;
@@ -184,7 +184,7 @@ footer{
         font-family: 'Roboto', sans-serif;
         display: grid;
         /* para q el logo este en una esquina y las secciones en otra */
-        width: 125%;
+        width: 120%;
         height: 150px;
         padding-left: 100px;
     
@@ -307,8 +307,10 @@ footer{
     .footer {
         display: grid;
         background-color: black;
-        width: 140%;
-        margin-top: 100%;
+        width: 133%;
+        margin-top: 110%;
+        position: sticky;
+
     }
 }
 

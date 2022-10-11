@@ -18,15 +18,15 @@ if(condicion){
 */
 
 /* else es como decir "sino"*/
-@mixin modos ($darkmode) {
-    @if $darkmode == black{
-        border: solid 2px blue;
-    } @else {
-        border: solid 2px tomato;
-    }
-}
+// @mixin modos ($darkmode) {
+//     @if $darkmode == black{
+//         border: solid 2px blue;
+//     } @else {
+//         border: solid 2px tomato;
+//     }
+// }
 
-.bg-condicion{
-    @include modos (tomato);
-}
+// .bg-condicion{
+//     @include modos (tomato);
+// }
 
