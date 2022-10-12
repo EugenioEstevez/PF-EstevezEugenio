@@ -87,7 +87,7 @@
         display: grid;
         background-color: black;
         width: 106%;
-        margin-top: 160%;
+        margin-top: 100%;
 
         .img-footer {
             padding-left: 60px;
@@ -106,20 +106,18 @@
 }
 
 @media only screen and (min-width:451px) and (max-width:960px) {
-
+body{
+    display: grid;
+}
 
     header {
-        width:130%;
-        .logo-name {
-            width: 70px;
-            height: 70px;
-            font-size: 50px;
-            padding-right: 65px;
+        .menu{
+            padding-top: 20px;
+            align-items: center;
         }
-        .menu {
-            padding-top: 15px;
         }
-    }
+    
+    main{
 
     .menus-main {
         margin-left: 15%;
@@ -135,24 +133,29 @@
     .Input {
         margin-right: 10%;
     }
-
+}
+footer{
     .footer {
         margin-top: 150%;
         width:140%;
-
-
     }
+}
+}
 
 
-    @media only screen and (min-width:961px) {
+    @media only screen and (min-width:961px) and (max-width:1077px) {
+  body{
+    width: 120%;
 
-
+  }
+        header{
         .logo-name {
             font-size: 15px;
             padding-right: 20px;
 
         }
-
     }
-
+    footer{
+        margin-top:100%;
+    }
 }
