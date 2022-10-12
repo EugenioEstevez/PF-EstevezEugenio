@@ -1,0 +1,14 @@
+ %flex-prod{
+     display: flex;
+    justify-content: center;
+ }
+
+ .input-text{
+     @extend %flex-prod;
+     align-items: center;
+      padding-left: 55px;
+ }
+
+ .menu-main{
+     @extend %flex-prod;
+}

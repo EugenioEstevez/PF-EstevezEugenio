@@ -1,21 +1,60 @@
 @mixin font-family {
     font-family: 'Lobster Two', cursive;
-    
+
 }
 
-.h3{
-    @include font-family;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+@mixin space-around {
+    justify-content: space-around;
 }
 
-.h1{
-    @include font-family;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    font-size: 80px;
+@mixin input {
+    align-items: center;
+    flex-direction: column;
 }
 
+main {
+
+    .input {
+        @include input;
+    }
+
+    .input-class-2 {
+        @include input;
+        justify-content: center;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        gap: 20px;
+    }
+
+    .input-class {
+        @include space-around;
+        gap: 40px;
+        justify-content: space-evenly;
+    }
+
+    .div-contact {
+        @include space-around;
+        background-color: white;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        margin-bottom: -100px;
+        margin-top: 100px;
+        font-family: 'Lobster Two', cursive;
+    }
+
+    .h3 {
+        @include font-family;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .h1 {
+        @include font-family;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-size: 80px;
+    }
+}

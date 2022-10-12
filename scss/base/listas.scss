@@ -24,7 +24,7 @@
 $font-family:
 'Lobster Two', cursive,
 'Roboto', sans-serif;
-
+main{
 .h4-class{
     font-family: nth($font-family,1);
     display: grid;
@@ -46,7 +46,7 @@ $font-family:
         color: black;
         margin-top: 100px;
 }
-
+}
 
 
 
