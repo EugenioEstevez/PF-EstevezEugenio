@@ -5,7 +5,9 @@ $font-size:
 $margin:
 400px;
 
-
+main{
+    
+    font-family: 'Lobster Two', cursive;
 .h1-class{
     font-size: nth($font-size,1);
     display: flex;
@@ -39,8 +41,7 @@ $margin:
     justify-content: space-evenly;
     color: black;
     text-shadow: 5px 5px grey;
-
-
+}
 }
 
 
