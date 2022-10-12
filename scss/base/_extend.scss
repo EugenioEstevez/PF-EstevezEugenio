@@ -1,26 +1,3 @@
-// extends
-
-
-// PAQUETES DE PROPIEDADES QUE VAMOS A CREAR CON UN PLACEHOLDER
-// placeholder = % 
-
-//  agrupo propiedades que se que voy a usar un monton
-
-//  %bordes{
-//     border: solid 3px black;
-//     color: white;
-// }
-
-// .galeria{
-//     background-color:aqua;
-//     para llamar el extend:
-//     @extend %flex;
-// (se puede poner mas de un extend)
-//     @extend %bordes;
-// }
-
-
-//  ESTO ES PARA MAIN INDEX
 %flex {
     display: flex;
     justify-content: space-around;
