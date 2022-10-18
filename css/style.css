@@ -98,15 +98,17 @@ main .principal-content {
   align-items: center;
 }
 main .h2-class {
-  display: grid;
   font-family: "Lobster Two", cursive;
-  font-size: 50px;
+  font-size: 60px;
+  display: grid;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  color: black;
   background-color: lightgrey;
+  margin-bottom: 100px;
 }
-main .h1-class {
+main .h1-clasS {
   margin-top: 40px;
   margin-left: 30px;
 }
@@ -248,7 +250,7 @@ footer .caja-footer {
     left: 300px;
     visibility: hidden;
   }
-  .h1-class {
+  .h1-clasS {
     margin-top: 40px;
     margin-left: 30px;
   }
@@ -266,7 +268,7 @@ footer .caja-footer {
     margin-left: 25%;
     margin-top: 100px;
   }
-  .h2-class {
+  .h2--class {
     margin-top: 200px;
     font-family: "Lobster Two", cursive;
     font-size: 50px;
@@ -338,6 +340,986 @@ footer .caja-footer {
   .logo-name {
     font-size: 35px;
     padding-right: 35px;
+  }
+}
+/* SECCION PRODUCTOS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* para q el logo este en una esquina y las secciones en otra */
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+.header .logo-name {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+.header nav a {
+  padding-right: 20px;
+}
+.header .menu {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+}
+.header a {
+  text-decoration: none;
+}
+
+main {
+  background-color: grey;
+  background-size: 100%;
+}
+main .bebida-1 {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+}
+main .gin {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 60px;
+}
+main div img {
+  width: 200px;
+  height: 200px;
+}
+main .lista {
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster Two", cursive;
+  background-color: lightgrey;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  font-size: 70px;
+}
+main .input-text {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  align-items: center;
+  font-family: "Lobster Two", cursive;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 40px;
+}
+main .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 55px;
+}
+main .menu-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 70px;
+  margin-left: 70px;
+  color: black;
+  padding-top: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+main .menu-main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 70px;
+  margin-left: 70px;
+  color: black;
+  padding-top: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+  margin-top: 100px;
+}
+footer .caja-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px lightblue;
+}
+footer .footer-logo-class {
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+footer .lista-footer {
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+footer .img-footer {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+footer .liquor-store-footer {
+  color: white;
+  border-top: solid 1px lightblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mobile */
+@media only screen and (max-width: 450px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  /* ARRANCA HEADER */
+  .header {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    /* para q el logo este en una esquina y las secciones en otra */
+    width: 101%;
+    height: 150px;
+  }
+  .header a {
+    text-decoration: none;
+  }
+  .header .logo-name {
+    font-size: 45px;
+  }
+  .header .logo {
+    display: grid;
+    grid-template-columns: 80px 30px;
+    width: 20%;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .header .logo img {
+    height: 70px;
+    width: 70px;
+  }
+  .header .menu {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    list-style: none;
+    font-size: 35px;
+    color: white;
+    gap: 120px;
+    padding-left: 30%;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .menus-main {
+    margin-left: 110px;
+    margin-top: 300px;
+  }
+  .menu-main {
+    gap: 80px;
+  }
+  .Input {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  .lista {
+    background-color: lightgrey;
+    width: 105%;
+  }
+  .footer {
+    display: grid;
+    background-color: black;
+    width: 106%;
+    margin-top: 100%;
+  }
+  .footer .img-footer {
+    padding-left: 60px;
+  }
+  ul.menu {
+    font-size: 30px;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  body {
+    display: grid;
+  }
+  header .menu {
+    padding-top: 20px;
+    align-items: center;
+  }
+  main .menus-main {
+    margin-left: 15%;
+  }
+  main .menu-main {
+    margin-top: 300px;
+  }
+  main .vodka {
+    visibility: hidden;
+  }
+  main .Input {
+    margin-right: 10%;
+  }
+  footer .footer {
+    margin-top: 150%;
+    width: 140%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1077px) {
+  body {
+    width: 120%;
+  }
+  header .logo-name {
+    font-size: 15px;
+    padding-right: 20px;
+  }
+  footer {
+    margin-top: 100%;
+  }
+}
+/* SECCION NOSOTROS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* para q el logo este en una esquina y las secciones en otra */
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+}
+header .logo-name {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+header a {
+  text-decoration: none;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+header .menu {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
+header nav a {
+  padding-right: 20px;
+}
+
+main {
+  font-family: "Lobster Two", cursive;
+}
+main .h1-Class {
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  gap: 10px;
+}
+main .texto-class {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+main .texto-class-2 {
+  font-size: 50px;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+main .text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: black;
+}
+footer .caja-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-top: solid 1px lightblue;
+}
+footer .footer-logo-class {
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+footer .lista-footer {
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+footer .img-footer {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+footer .liquor-store-footer {
+  color: white;
+  border-top: solid 1px lightblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    height: 100px;
+    display: grid;
+    width: 245%;
+  }
+  header .menu {
+    position: relative;
+    bottom: 30px;
+    gap: 20px;
+    padding-left: 220px;
+    font-size: 24px;
+  }
+  header .logo {
+    display: grid;
+    grid-template-columns: 80px 30px;
+    width: 20%;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+    top: 15px;
+  }
+  header .logo-name {
+    margin-left: -35px;
+    font-size: 35px;
+  }
+  header .logo img {
+    height: 80px;
+    width: 80px;
+    margin-left: -20px;
+  }
+  main {
+    width: 250%;
+    margin-top: 100%;
+  }
+  main .h1N {
+    font-size: 150px;
+  }
+  footer {
+    display: grid;
+    background-color: black;
+    width: 255%;
+    margin-top: 150%;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  header {
+    width: 245%;
+    gap: 50px;
+  }
+  header .menu {
+    padding-left: 100px;
+    padding-top: 20px;
+    gap: 10px;
+    position: relative;
+    right: 150px;
+    font-size: 30px;
+  }
+  main {
+    width: 250%;
+    margin-top: 100%;
+  }
+  main .h1 {
+    font-size: 150px;
+  }
+  main .h2 {
+    font-size: 100px;
+  }
+  main .h2-Class {
+    gap: 150px;
+  }
+  footer {
+    width: 250%;
+    margin-top: 150%;
+  }
+}
+@media only screen and (min-width: 961px) {
+  footer {
+    margin-top: 250px;
+  }
+}
+/* SECCION COMO COMPRAR*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* para q el logo este en una esquina y las secciones en otra */
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+}
+header .logo-name {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+header a {
+  text-decoration: none;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+header .menu {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
+header nav a {
+  padding-right: 20px;
+}
+
+main {
+  background-color: grey;
+  background-size: 100%;
+}
+main .main-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  font-size: 40px;
+  font-family: "Lobster Two", cursive;
+}
+main .compra-class {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 100px;
+}
+main .img-clasS {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-right: 15px;
+}
+main .img-1 {
+  background-color: white;
+  height: 150px;
+  border: solid 5px black;
+}
+main .img-2 {
+  background-color: white;
+  height: 150px;
+  border: solid 5px black;
+}
+main .img-3 {
+  background-color: white;
+  height: 150px;
+  border: solid 5px black;
+}
+main h2 {
+  padding-left: 200px;
+  font-size: 110px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  margin-bottom: -100px;
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+main .h2-img {
+  width: 40%;
+  height: 400px;
+}
+
+footer {
+  background-color: black;
+}
+footer .caja-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-top: solid 1px lightblue;
+}
+footer .footer-logo-class {
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+footer .lista-footer {
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+footer .img-footer {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+footer .liquor-store-footer {
+  color: white;
+  border-top: solid 1px lightblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 450px) {
+  /* ARRANCA HEADER */
+  header {
+    height: 100px;
+    display: grid;
+    width: 240%;
+  }
+  header .menu {
+    position: relative;
+    bottom: 30px;
+    gap: 20px;
+    padding-left: 160px;
+  }
+  header .logo {
+    display: grid;
+    grid-template-columns: 80px 30px;
+    width: 20%;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+    top: 15px;
+  }
+  header .logo-name {
+    margin-left: -35px;
+    font-size: 35px;
+  }
+  header .logo img {
+    height: 80px;
+    width: 80px;
+    margin-left: -20px;
+  }
+  main {
+    width: 100%;
+    display: grid;
+  }
+  main .main-class {
+    margin-left: 50%;
+    margin-top: 200px;
+  }
+  main nav {
+    margin-left: 35%;
+    margin-top: 300px;
+  }
+  main .img-class {
+    gap: 50px;
+  }
+  main .compra-class {
+    gap: 150px;
+  }
+  main .precio-class {
+    margin-left: 100px;
+  }
+  main .h2-clase {
+    height: 500px;
+    width: 135%;
+    font-size: 100px;
+    padding-left: 50px;
+  }
+  footer {
+    display: grid;
+    background-color: black;
+    width: 251%;
+    margin-top: 100%;
+  }
+}
+/* TABLET */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  header {
+    width: 240%;
+  }
+  header .menu {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  main {
+    width: 215%;
+    display: grid;
+  }
+  footer {
+    width: 250%;
+    margin-top: 100%;
+  }
+  .h2-clase {
+    width: 85%;
+  }
+  .precio-class {
+    margin-bottom: 50px;
+    margin-top: 500px;
+    margin-left: 35px;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1020px) {
+  header {
+    width: 106%;
+  }
+  footer {
+    margin-top: 250px;
+    width: 112%;
+  }
+  .h2-clase {
+    margin-left: 100px;
+  }
+  .h2-img {
+    height: 520px;
+  }
+  .precio-class {
+    width: 112%;
+    height: 520px;
+    background-color: black;
+  }
+}
+/* SECCION CONTACTO */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  /* para q el logo este en una esquina y las secciones en otra */
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 10px;
+  padding-right: 50px;
+}
+header .logo-name {
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+}
+header a {
+  text-decoration: none;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+}
+header .menu {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
+header nav a {
+  padding-right: 20px;
+}
+
+main .div-contact, main .input-class-2, main .input-class, main .input, main .h3, main .h1 {
+  display: flex;
+}
+main .msj-class, main .map-class, main .phone-class {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+main .input {
+  align-items: center;
+  flex-direction: column;
+}
+main .input-class-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+main .input-class {
+  justify-content: space-around;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+main .div-contact {
+  justify-content: space-around;
+  background-color: white;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: -100px;
+  margin-top: 100px;
+  font-family: "Lobster Two", cursive;
+}
+main .h3 {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+main .h1 {
+  font-family: "Lobster Two", cursive;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 80px;
+}
+
+footer {
+  background-color: black;
+}
+footer .caja-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-top: solid 1px lightblue;
+}
+footer .footer-logo-class {
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+footer .lista-footer {
+  align-items: center;
+  padding-left: 60%;
+  list-style: none;
+  color: white;
+}
+footer .img-footer {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  width: 30px;
+}
+footer .liquor-store-footer {
+  align-items: center;
+  color: white;
+  border-top: solid 1px lightblue;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    width: 230%;
+    height: 100px;
+  }
+  header .menu {
+    align-items: center;
+    padding-left: 20px;
+    gap: 20px;
+    font-size: 28px;
+  }
+  header .logo {
+    padding-right: 30px;
+  }
+  header .logo-name {
+    font-size: 30px;
+  }
+  main {
+    width: 200%;
+    display: grid;
+    margin-left: 15%;
+  }
+  main input {
+    width: 250px;
+    height: 50px;
+  }
+  footer {
+    width: 245%;
+    margin-top: 180%;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  header {
+    width: 225%;
+    height: 100px;
+  }
+  header .menu {
+    width: 100%;
+    padding-top: 10px;
+    gap: 15px;
+    font-size: 25px;
+    padding-left: 20px;
+  }
+  header .logo-name {
+    font-size: 30px;
+    padding-right: 20px;
+  }
+  main {
+    width: 220%;
+    margin-left: 5%;
+    margin-top: 50%;
+  }
+  main .div-contact {
+    margin-top: 50%;
+  }
+  footer {
+    width: 230%;
+    margin-top: 190%;
+  }
+}
+@media only screen and (min-width: 961px) and (max-width: 1035px) {
+  header {
+    width: 1000px;
+  }
+  header .menu {
+    padding-left: 20px;
+    gap: 30px;
   }
 }
 

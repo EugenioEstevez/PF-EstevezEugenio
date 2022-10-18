@@ -89,7 +89,7 @@
         visibility: hidden;
     }
 
-    .h1-class {
+    .h1-clasS {
         margin-top: 40px;
         margin-left: 30px;
     }
@@ -109,7 +109,7 @@
         margin-top: 100px;
     }
 
-    .h2-class {
+    .h2--class{
         margin-top: 200px;
         font-family: 'Lobster Two', cursive;
         font-size: 50px;
@@ -197,6 +197,549 @@
         padding-right: 35px;
     }
 }
+
+
+
+/* SECCION PRODUCTOS*/
+@import "base/estilosGenerales";
+@import "components/headerprod";
+@import 'base/mixinprod';
+@import "components/footerprod";
+
+
+/* mobile */
+@media only screen and (max-width: 450px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    /* ARRANCA HEADER */
+    .header {
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        /* para q el logo este en una esquina y las secciones en otra */
+        width: 101%;
+        height: 150px;
+
+        a {
+            text-decoration: none;
+
+        }
+
+        .logo-name {
+            font-size: 45px;
+        }
+
+        .logo {
+            display: grid;
+            grid-template-columns: 80px 30px;
+            width: 20%;
+            align-items: center;
+            padding-top: 30px;
+        }
+
+        .logo img {
+            height: 70px;
+            width: 70px;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(5, 100px);
+            list-style: none;
+            font-size: 35px;
+            color: white;
+            gap: 120px;
+            padding-left: 30%;
+            align-items: center;
+            position: relative;
+            bottom: 80px;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .menus-main {
+        margin-left: 110px;
+        margin-top: 300px;
+    }
+
+    .menu-main {
+        gap: 80px;
+
+    }
+
+    .Input {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .lista {
+        background-color: lightgrey;
+        width: 105%;
+    }
+
+    .footer {
+        display: grid;
+        background-color: black;
+        width: 106%;
+        margin-top: 100%;
+
+        .img-footer {
+            padding-left: 60px;
+        }
+    }
+
+    ul.menu {
+        font-size: 30px;
+        align-items: center;
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width:451px) and (max-width:960px) {
+body{
+    display: grid;
+}
+
+    header {
+        .menu{
+            padding-top: 20px;
+            align-items: center;
+        }
+        }
+    
+    main{
+
+    .menus-main {
+        margin-left: 15%;
+    }
+
+    .menu-main {
+        margin-top: 300px;
+    }
+    .vodka {
+        visibility: hidden;
+    }
+
+    .Input {
+        margin-right: 10%;
+    }
+}
+footer{
+    .footer {
+        margin-top: 150%;
+        width:140%;
+    }
+}
+}
+
+
+    @media only screen and (min-width:961px) and (max-width:1077px) {
+  body{
+    width: 120%;
+
+  }
+        header{
+        .logo-name {
+            font-size: 15px;
+            padding-right: 20px;
+
+        }
+    }
+    footer{
+        margin-top:100%;
+    }
+}
+
+
+
+/* SECCION NOSOTROS */
+@import "base/estilosGenerales";
+@import "components/headernosotros";
+@import "base/_listasnosotros.scss";
+@import "components/footernosotros";
+
+@media only screen and (max-width:450px) {
+    header {
+        height: 100px;
+        display: grid;
+        width: 245%;
+
+        .menu{
+            position: relative;
+            bottom: 30px;
+            gap: 20px;
+            padding-left: 220px;
+            font-size: 24px;
+        }
+
+        .logo{
+            display: grid;
+            grid-template-columns: 80px 30px;
+            width: 20%;
+            align-items: center;
+            margin-right: 50px;
+            position: relative;
+            top: 15px;
+    }
+
+    .logo-name{
+        margin-left: -35px;
+        font-size: 35px;
+    }
+    .logo img {
+        height: 80px;
+        width:80px;
+        margin-left: -20px;
+    }
+    }
+
+    main{
+        width: 250%;
+        margin-top: 100%;
+
+
+    
+        .h1N{
+            font-size: 150px;
+        }
+    }
+   
+
+
+    footer {
+        display: grid;
+        background-color: black;
+        width:255%;
+        margin-top: 150%;
+    
+    }
+}
+
+@media  only screen and (min-width:451px) and (max-width:960px){
+    header {
+        width: 245%;
+        gap: 50px;
+
+        .menu{
+            padding-left: 100px;
+            padding-top: 20px;
+            gap: 10px;
+            position: relative;
+            right: 150px;
+            font-size: 30px;   
+        }
+    }
+
+    main{
+        width: 250%;
+        margin-top: 100%;
+
+        .h1{
+            font-size: 150px;
+        }
+
+        .h2{
+            font-size: 100px;
+        }
+
+        .h2-Class{
+            gap: 150px;
+        }
+    }
+        footer{
+            width: 250%;
+            margin-top: 150%;
+        }
+    }
+
+    @media only screen and (min-width:961px) {
+
+        footer{
+        margin-top: 250px;
+
+        }
+
+    }
+
+/* SECCION COMO COMPRAR*/
+@import "base/estilosGenerales";
+@import "components/headercomocomp";
+@import "base/mixincomp";
+@import "components/footercomocomp";
+
+
+
+/*MOBILE*/
+
+@media only screen and (max-width:450px) {
+     
+    /* ARRANCA HEADER */
+    header {
+        height: 100px;
+        display: grid;
+        width: 240%;
+
+        .menu{
+            position: relative;
+            bottom: 30px;
+            gap: 20px;
+            padding-left: 160px;
+        }
+
+        .logo{
+            display: grid;
+            grid-template-columns: 80px 30px;
+            width: 20%;
+            align-items: center;
+            margin-right: 50px;
+            position: relative;
+            top: 15px;
+
+    }
+
+    .logo-name{
+        margin-left: -35px;
+        font-size: 35px;
+    }
+    .logo img {
+        height: 80px;
+        width:80px;
+        margin-left: -20px;
+    }
+}
+
+main{
+    width: 100%;
+    display: grid;
+
+    .main-class{
+        margin-left: 50%;
+        margin-top: 200px;
+
+    }
+
+    nav{
+        margin-left: 35%;
+        margin-top: 300px;
+    }
+
+    .img-class{
+        gap: 50px;
+    }
+
+    .compra-class{
+        gap:150px;
+    }
+
+    .precio-class{
+        margin-left: 100px;
+
+    }
+
+    .h2-clase{
+        height: 500px;
+        width: 135%;
+        font-size: 100px;
+        padding-left: 50px;
+    }
+}
+footer {
+    display: grid;
+    background-color: black;
+    width:251%;
+    margin-top: 100%;
+
+}
+}
+
+/* TABLET */
+
+@media only screen and (min-width:451px) and (max-width:960px){
+    header {
+        width: 240%;
+
+        .menu{
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+    }
+
+    main{
+        width: 215%;
+        display: grid;
+    }
+
+    footer{
+        width: 250%;
+        margin-top: 100%;
+        
+
+
+    }
+
+    .h2-clase{
+        width: 85%;
+        
+    }
+
+    .precio-class{
+        margin-bottom: 50px;
+        margin-top: 500px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (min-width:961px) and (max-width:1020px){
+    header{
+        width: 106%;
+    }
+
+    footer{
+        margin-top: 250px;
+        width: 112%;
+    }
+    .h2-clase{
+        margin-left: 100px;
+
+    }
+    .h2-img{
+        height: 520px;
+
+    }
+
+    .precio-class{
+        width: 112%;
+        height: 520px;
+        background-color: black;
+    }
+}
+
+/* SECCION CONTACTO */
+
+@import "base/estilosGenerales";
+@import "components/headercontact";
+@import "base/_extendcontact.scss";
+@import "base/mixincontact";
+@import "components/footercontact";
+
+@media only screen and (max-width:450px) {
+    header{
+        width: 230%;
+        height: 100px;
+        .menu{
+            align-items: center;
+            padding-left: 20px;
+            gap: 20px;
+            font-size: 28px;
+        }
+        .logo{
+            padding-right: 30px;
+        }
+        .logo-name{
+            font-size: 30px;
+        }
+    }
+    main{
+        width: 200%;
+        display: grid;
+        margin-left: 15%;
+        input{
+            width: 250px;
+            height: 50px;
+        }
+    }
+    footer{
+        width: 245%;
+        margin-top: 180%;
+    }
+}
+
+@media only screen and (min-width:451px) and (max-width:960px){
+     header{
+        width: 225%;
+        height: 100px;
+        .menu{
+            width: 100%;
+            padding-top: 10px;
+            gap: 15px;
+            font-size: 25px;
+            padding-left: 20px;
+        }
+        .logo-name{
+            font-size: 30px;
+            padding-right: 20px;
+        }
+     }
+
+     main{
+        width: 220%;
+        margin-left: 5%;
+        margin-top: 50%;
+
+        .div-contact{
+            margin-top: 50%;
+        }
+     }
+
+     footer{
+        width: 230%;
+        margin-top: 190%;
+
+     }   
+    }
+    @media only screen and (min-width:961px) and (max-width:1035px){
+
+        header{
+            width: 1000px;
+
+            .menu{
+                padding-left: 20px;
+                gap: 30px;
+
+            }
+
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
