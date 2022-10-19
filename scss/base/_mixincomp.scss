@@ -18,10 +18,12 @@
     @include flex-comp;
     justify-content: center;
     justify-content: space-evenly;
-    margin-top: 30px;
-    font-size: 25px;
+    margin-top: 200px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 100px;
+    margin-left: -27%;
+    width: 20%;
 }
 
 .img-clasS {
@@ -30,7 +32,8 @@
     justify-content: space-around;
     justify-content: space-evenly;
     margin-top: 100px;
-    margin-right: 15px;
+    margin-left: 10%;
+    gap: 50px;
 }
 
 @mixin img {

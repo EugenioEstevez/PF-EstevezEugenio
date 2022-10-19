@@ -165,7 +165,7 @@ body {
   height: 30px;
   width: 30px;
 }
-.footer-4 .liquor-store-footer {
+.footer-4 .liquor-store-footer4 {
   color: white;
   border-top: solid 1px lightblue;
   margin-top: 50px;
@@ -188,7 +188,7 @@ body {
     grid-template-columns: 1fr;
   }
   .header-4 {
-    width: 115%;
+    width: 130%;
     height: 900px;
   }
   .header-4 .menu4 {
@@ -243,28 +243,31 @@ body {
     left: 35%;
   }
   .footer-4 {
-    width: 115%;
+    width: 116%;
   }
   .footer-4 .a-footer4 {
     font-size: 30px;
     padding-left: 500px;
   }
+  .footer-4 .liquor-store-footer4 {
+    font-size: 25px;
+  }
 }
 /* tablet */
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .header-4 {
-    width: 270%;
+    width: 300%;
     height: 250px;
   }
   .header-4 .logo4 {
     padding-top: 20px;
+    width: 200px;
   }
   .header-4 .menu4 {
     position: relative;
-    font-size: 50px;
-    right: 500px;
-    gap: 50px;
-    width: 20%;
+    font-size: 40px;
+    right: 700px;
+    gap: 75px;
   }
   .header-4 .logo-name4 {
     font-size: 60px;
@@ -295,25 +298,32 @@ body {
     height: 700px;
   }
   .main-4 .ul-lista2 {
-    width: 260%;
+    width: 280%;
     font-size: 70px;
-    margin-left: 80px;
+    margin-left: 30px;
     height: 250px;
   }
   .main-4 .h2-class {
-    width: 250%;
-    margin-left: 100px;
+    width: 300%;
     font-size: 150px;
   }
   .main-4 .principal-content {
-    display: block;
-    margin-left: 130%;
+    margin-left: 150%;
   }
   .footer-4 {
-    width: 276%;
+    width: 280%;
   }
   .footer-4 .a-footer4 {
     font-size: 40px;
+  }
+  .footer-4 .liquor-store-footer4 {
+    font-size: 30px;
+  }
+  .footer-4 .img-whatsapp-footerI,
+.footer-4 .img-facebook-footerI,
+.footer-4 .img-instagram-footerI {
+    width: 40px;
+    height: 40px;
   }
 }
 @media only screen and (min-width: 853px) and (max-width: 960px) {
@@ -326,8 +336,26 @@ body {
     width: 200%;
     font-size: 70px;
   }
+  .main-4 .ul-lista2 {
+    margin-left: 50%;
+  }
+  .main-4 .h2-class {
+    margin-left: 50%;
+  }
+  .main-4 .principal-content {
+    margin-right: -150%;
+  }
+  .main-4 .img-h4 {
+    margin-left: 50%;
+  }
+  .main-4 .h4-class {
+    margin-left: 40%;
+  }
+  .main-4 .img-amigos {
+    margin-left: 50%;
+  }
   .footer-4 {
-    width: 400%;
+    width: 378%;
   }
 }
 /* SECCION PRODUCTOS*/
@@ -470,27 +498,27 @@ body {
   justify-content: space-between;
   border-top: solid 1px lightblue;
 }
-.footer .footer-logo-class {
+.footer .footer-logo-class0 {
   align-items: center;
   width: 80px;
   height: 80px;
   padding-left: 10px;
   padding-top: 20px;
 }
-.footer .lista-footer {
+.footer .lista-footer0 {
   align-items: center;
   padding-left: 60%;
   list-style: none;
   color: white;
 }
-.footer .img-footer {
+.footer .img-footer0 {
   margin-right: 20px;
   display: flex;
   justify-content: flex-end;
   height: 30px;
   width: 30px;
 }
-.footer .liquor-store-footer {
+.footer .liquor-store-footer0 {
   color: white;
   border-top: solid 1px lightblue;
   margin-top: 50px;
@@ -549,18 +577,19 @@ body {
     left: 550px;
     bottom: 100px;
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
+  .main {
+    width: 235%;
   }
   .main .menu-main {
     display: grid;
     gap: 350px;
     padding-bottom: 350px;
+    margin-left: 50%;
   }
   .main .menu-main2 {
     gap: 350px;
     display: grid;
+    margin-left: 50%;
   }
   .main .bebida {
     width: 400px;
@@ -573,16 +602,20 @@ body {
     padding-bottom: 100px;
   }
   .main .input-text {
-    font-size: 130px;
+    font-size: 160px;
   }
   .main .Input {
     margin-top: 100px;
     margin-left: 100px;
   }
+  .main .input {
+    margin-left: 20%;
+  }
   .main button {
-    margin-top: 20px;
-    width: 30%;
+    width: 20%;
     font-size: 40px;
+    height: 50px;
+    margin-left: 20px;
   }
   .main .lista {
     background-color: lightgrey;
@@ -601,6 +634,22 @@ body {
   .footer .img-footer {
     padding-left: 60px;
   }
+  .footer .a-footer0 {
+    font-size: 30px;
+  }
+  .footer .liquor-store-footer0 {
+    font-size: 30px;
+  }
+  .footer .img-whatsapp-footer0,
+.footer .img-instagram-footer0,
+.footer .img-facebook-footer0 {
+    width: 45px;
+    height: 45px;
+  }
+  .footer .footer-logo-class0 {
+    width: 100px;
+    height: 100px;
+  }
   ul.menu {
     font-size: 30px;
     align-items: center;
@@ -617,17 +666,21 @@ body {
     width: 300%;
     height: 200px;
   }
-  .header .logo-name {
+  .header .logo0 {
+    position: relative;
+    right: 40px;
+  }
+  .header .logo-name0 {
     font-size: 80px;
     width: 20%;
   }
-  .header .logo img {
+  .header .logo-img0 {
     width: 150px;
     height: 150px;
   }
-  .header .menu {
+  .header .menu0 {
     position: relative;
-    right: 235px;
+    left: 100px;
   }
   .header .a {
     font-size: 55px;
@@ -637,23 +690,29 @@ body {
   }
   .main {
     position: relative;
-    left: 30%;
-    width: 150%;
+    left: 50%;
+    width: 200%;
     display: grid;
     grid-template-columns: 2, 1fr;
   }
   .main .lista {
-    width: 90%;
-    font-size: 150px;
+    width: 150%;
+    margin-left: -600px;
+    font-size: 180px;
   }
   .main .input-text {
-    font-size: 120px;
+    font-size: 150px;
+  }
+  .main .input {
+    margin-left: 10%;
   }
   .main button {
-    font-size: 30px;
+    font-size: 70px;
     margin-top: 20px;
+    margin-left: 50px;
   }
   .main .menu-main {
+    margin-top: 300px;
     margin-bottom: 300px;
     gap: 100px;
     margin-left: 100px;
@@ -661,27 +720,29 @@ body {
   .main .menu-main2 {
     gap: 100px;
     margin-left: 100px;
+    margin-top: 50%;
   }
   .main .bebida-1 {
-    font-size: 45px;
+    font-size: 70px;
     width: 30%;
     position: relative;
     right: 80px;
   }
   .main .bebida {
-    width: 320px;
-    height: 320px;
+    width: 500px;
+    height: 500px;
   }
   .footer {
     width: 305%;
+    margin-top: 200%;
   }
-  .footer .lista-footer {
+  .footer .lista-footer0 {
     padding-top: 10px;
   }
-  .footer .a-footer {
+  .footer .a-footer0 {
     font-size: 40px;
   }
-  .footer .liquor-store-footer {
+  .footer .liquor-store-footer0 {
     font-size: 40px;
   }
   .footer .img-facebook-footer,
@@ -690,7 +751,7 @@ body {
     width: 50px;
     height: 50px;
   }
-  .footer .footer-logo-class {
+  .footer .footer-logo-class0 {
     width: 100px;
     height: 100px;
   }
@@ -809,27 +870,27 @@ body {
   margin-top: 100px;
   border-top: solid 1px lightblue;
 }
-.footer-3 .footer-logo-class {
+.footer-3 .footer-logo-class3 {
   align-items: center;
   width: 80px;
   height: 80px;
   padding-left: 10px;
   padding-top: 20px;
 }
-.footer-3 .lista-footer {
+.footer-3 .lista-footer3 {
   align-items: center;
   padding-left: 60%;
   list-style: none;
   color: white;
 }
-.footer-3 .img-footer {
+.footer-3 .img-footer3 {
   margin-right: 20px;
   display: flex;
   justify-content: flex-end;
   height: 30px;
   width: 30px;
 }
-.footer-3 .liquor-store-footer {
+.footer-3 .liquor-store-footer3 {
   color: white;
   border-top: solid 1px lightblue;
   margin-top: 50px;
@@ -839,62 +900,83 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
-  .header-3 {
-    height: 100px;
+  .grid-container-3 {
     display: grid;
-    width: 245%;
+    grid-template-columns: 1fr;
+  }
+  .header-3 {
+    width: 220%;
+    height: 900px;
   }
   .header-3 .menu3 {
-    position: relative;
-    bottom: 30px;
-    gap: 20px;
-    padding-left: 220px;
-    font-size: 24px;
-  }
-  .header-3 .logo3 {
     display: grid;
-    grid-template-columns: 80px 30px;
-    width: 20%;
-    align-items: center;
-    margin-right: 50px;
+    font-size: 60px;
+    color: white;
+    padding-right: 100px;
     position: relative;
-    top: 15px;
+    right: 300px;
   }
   .header-3 .logo-name3 {
-    margin-left: -35px;
-    font-size: 35px;
+    font-size: 100px;
   }
   .header-3 .logo-img3 {
-    height: 80px;
-    width: 80px;
-    margin-left: -20px;
+    height: 130px;
+    width: 130px;
   }
   .main-3 {
     width: 250%;
     margin-top: 100%;
   }
   .main-3 .h1N {
-    font-size: 150px;
+    font-size: 200px;
+    margin-left: -10%;
+  }
+  .main-3 .pN {
+    font-size: 100px;
+    margin-left: -10%;
+    margin-top: 100px;
+  }
+  .main-3 .texto-class,
+.main-3 .texto-class-2 {
+    font-size: 100px;
+    margin-top: 200px;
+    margin-left: -10%;
   }
   .footer-3 {
     display: grid;
     background-color: black;
-    width: 255%;
+    width: 220%;
     margin-top: 150%;
+  }
+  .footer-3 .liquor-store-footer3 {
+    font-size: 25px;
+  }
+  .footer-3 .aN {
+    font-size: 30px;
+  }
+  .footer-3 .img-instagram-footer3,
+.footer-3 .img-whatsapp-footer3,
+.footer-3 .img-facebook-footer3 {
+    width: 40px;
+    height: 40px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .header-3 {
-    width: 245%;
+    width: 265%;
     gap: 50px;
+    height: 250px;
   }
   .header-3 .menu3 {
     padding-left: 100px;
     padding-top: 20px;
-    gap: 10px;
+    gap: 30px;
     position: relative;
-    right: 150px;
-    font-size: 30px;
+    right: 80px;
+    font-size: 35px;
+  }
+  .header-3 .logo-name3 {
+    font-size: 50px;
   }
   .main-3 {
     width: 250%;
@@ -910,8 +992,21 @@ body {
     gap: 150px;
   }
   .footer-3 {
-    width: 250%;
-    margin-top: 150%;
+    width: 275%;
+    margin-top: 160%;
+  }
+  .footer-3 .aN {
+    font-size: 30px;
+    margin-right: 100px;
+  }
+  .footer-3 .liquor-store-footer3 {
+    font-size: 30px;
+  }
+  .footer-3 .img-instagram-footer3,
+.footer-3 .img-whatsapp-footer3,
+.footer-3 .img-facebook-footer3 {
+    width: 45px;
+    height: 45px;
   }
 }
 @media only screen and (min-width: 961px) {
@@ -994,10 +1089,12 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  margin-top: 30px;
-  font-size: 25px;
+  margin-top: 200px;
+  font-size: 35px;
   font-family: "Roboto", sans-serif;
   padding-bottom: 100px;
+  margin-left: -27%;
+  width: 20%;
 }
 .main-1 .img-clasS {
   display: flex;
@@ -1005,7 +1102,8 @@ body {
   justify-content: space-around;
   justify-content: space-evenly;
   margin-top: 100px;
-  margin-right: 15px;
+  margin-left: 10%;
+  gap: 50px;
 }
 .main-1 .img-1 {
   background-color: white;
@@ -1049,7 +1147,7 @@ body {
   margin-top: 100px;
   border-top: solid 1px lightblue;
 }
-.footer-1 .footer-logo-class {
+.footer-1 .footer-logo-class1 {
   align-items: center;
   width: 80px;
   height: 80px;
@@ -1069,7 +1167,7 @@ body {
   height: 30px;
   width: 30px;
 }
-.footer-1 .liquor-store-footer {
+.footer-1 .liquor-store-footer1 {
   color: white;
   border-top: solid 1px lightblue;
   margin-top: 50px;
@@ -1082,84 +1180,172 @@ body {
 @media only screen and (max-width: 450px) {
   /* ARRANCA HEADER */
   .header-1 {
-    height: 100px;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
     display: grid;
-    width: 240%;
+    width: 310%;
+    height: 80%;
   }
-  .header-1 .menu1 {
+  .header-1 a {
+    text-decoration: none;
+  }
+  .header-1 a:hover {
+    color: red;
+  }
+  .header-1 .logo-name1 {
+    font-size: 150px;
     position: relative;
-    bottom: 30px;
-    gap: 20px;
-    padding-left: 160px;
+    left: 150px;
+    bottom: 70px;
   }
   .header-1 .logo1 {
     display: grid;
     grid-template-columns: 80px 30px;
     width: 20%;
     align-items: center;
-    margin-right: 50px;
-    position: relative;
-    top: 15px;
-  }
-  .header-1 .logo-name1 {
-    margin-left: -35px;
-    font-size: 35px;
+    padding-top: 30px;
   }
   .header-1 .logo-img1 {
-    height: 80px;
-    width: 80px;
-    margin-left: -20px;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+  }
+  .header-1 .menu1 {
+    display: grid;
+    grid-template-columns: 2, 100px;
+    font-size: 80px;
+    color: white;
+    position: relative;
+    left: 550px;
+    bottom: 100px;
   }
   .main-1 {
     width: 100%;
     display: grid;
   }
   .main-1 .main-class {
-    margin-left: 50%;
+    margin-left: 100%;
     margin-top: 200px;
+    font-size: 100px;
   }
   .main-1 nav {
     margin-left: 35%;
     margin-top: 300px;
   }
-  .main-1 .img-class {
-    gap: 50px;
+  .main-1 .img-clasS {
+    display: grid;
+    gap: 150px;
+    margin-left: 50%;
+  }
+  .main-1 .img-1,
+.main-1 .img-2,
+.main-1 .img-3 {
+    width: 400px;
+    height: 400px;
   }
   .main-1 .compra-class {
-    gap: 150px;
+    display: grid;
+    font-size: 100px;
+    width: 200%;
   }
   .main-1 .precio-class {
     margin-left: 100px;
   }
   .main-1 .h2-clase {
     height: 500px;
-    width: 135%;
-    font-size: 100px;
+    width: 200%;
+    font-size: 130px;
     padding-left: 50px;
+    margin-left: -15%;
+  }
+  .main-1 .h2-img {
+    height: 100%;
   }
   .footer-1 {
     display: grid;
-    background-color: black;
-    width: 251%;
     margin-top: 100%;
+    width: 320%;
+  }
+  .footer-1 .a1 {
+    font-size: 25px;
   }
 }
 /* TABLET */
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .header-1 {
-    width: 240%;
+    width: 410%;
+    height: 250px;
   }
-  .header-1 .menu {
-    padding-left: 20px;
-    padding-top: 20px;
+  .header-1 .menu1 {
+    padding-left: 40px;
+    font-size: 80px;
+    gap: 50px;
+    padding-top: 80px;
+  }
+  .header-1 .logo-name1 {
+    font-size: 70px;
+    padding-top: 60px;
+  }
+  .header-1 .logo-img1 {
+    padding-top: 60px;
+    width: 100px;
+    height: 100px;
   }
   .main-1 {
     width: 215%;
     display: grid;
   }
+  .main-1 .main-class {
+    font-size: 135px;
+    width: 200%;
+    margin-left: -25%;
+  }
+  .main-1 .compra-class {
+    font-size: 100px;
+    margin-left: -25%;
+    width: 20%;
+    margin-top: 20%;
+  }
+  .main-1 .img-1,
+.main-1 .img-2,
+.main-1 .img-3 {
+    width: 500px;
+    height: 500px;
+  }
+  .main-1 .img-clasS {
+    width: 150%;
+    margin-left: -10%;
+  }
+  .main-1 .h2-clase {
+    width: 120%;
+    font-size: 200px;
+    height: 700px;
+  }
+  .main-1 .h2-img {
+    height: 700px;
+    width: 1000px;
+  }
   .footer-1 {
-    width: 250%;
-    margin-top: 100%;
+    width: 400%;
+    margin-top: 210%;
+  }
+  .footer-1 .a1 {
+    font-size: 50px;
+  }
+  .footer-1 .img-instagram-footer1,
+.footer-1 .img-whatsapp-footer1,
+.footer-1 .img-facebook-footer1 {
+    width: 80px;
+    height: 80px;
+  }
+  .footer-1 .footer-logo-class1 {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-1 .liquor-store-footer1 {
+    font-size: 50px;
   }
   .h2-clase {
     width: 85%;
@@ -1248,7 +1434,7 @@ body {
   padding-right: 20px;
 }
 
-.main-2 .div-contact, .main-2 .input-class-2, .main-2 .input-class, .main-2 .input, .main-2 .h3, .main-2 .h1 {
+.main-2 .div-contact, .main-2 .input-class-2, .main-2 .input-class2, .main-2 .input, .main-2 .h3-2, .main-2 .h1-2 {
   display: flex;
 }
 .main-2 .msj-class, .main-2 .map-class, .main-2 .phone-class {
@@ -1268,7 +1454,7 @@ body {
   margin-bottom: 100px;
   gap: 20px;
 }
-.main-2 .input-class {
+.main-2 .input-class2 {
   justify-content: space-around;
   gap: 40px;
   justify-content: space-evenly;
@@ -1282,14 +1468,14 @@ body {
   margin-top: 100px;
   font-family: "Lobster Two", cursive;
 }
-.main-2 .h3 {
+.main-2 .h3-2 {
   font-family: "Lobster Two", cursive;
   font-size: 30px;
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
 }
-.main-2 .h1 {
+.main-2 .h1-2 {
   font-family: "Lobster Two", cursive;
   justify-content: center;
   padding-top: 100px;
@@ -1314,7 +1500,7 @@ body {
   padding-left: 10px;
   padding-top: 20px;
 }
-.footer-2 .lista-footer {
+.footer-2 .lista-footer2 {
   align-items: center;
   padding-left: 60%;
   list-style: none;
@@ -1327,7 +1513,7 @@ body {
   height: 30px;
   width: 30px;
 }
-.footer-2 .liquor-store-footer {
+.footer-2 .liquor-store-footer2 {
   align-items: center;
   color: white;
   border-top: solid 1px lightblue;
@@ -1338,20 +1524,46 @@ body {
 
 @media only screen and (max-width: 450px) {
   .header-2 {
-    width: 230%;
-    height: 100px;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    width: 260%;
+    height: 850px;
   }
-  .header-2 .menu2 {
-    align-items: center;
-    padding-left: 20px;
-    gap: 20px;
-    font-size: 28px;
+  .header-2 a {
+    text-decoration: none;
   }
-  .header-2 .logo2 {
-    padding-right: 30px;
+  .header-2 a:hover {
+    color: red;
   }
   .header-2 .logo-name2 {
-    font-size: 30px;
+    font-size: 150px;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+  }
+  .header-2 .logo2 {
+    display: grid;
+    grid-template-columns: 80px 30px;
+    width: 20%;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .header-2 .logo-img2 {
+    height: 350px;
+    width: 300px;
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+  }
+  .header-2 .menu2 {
+    display: grid;
+    grid-template-columns: 2, 100px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    left: 700px;
+    bottom: 300px;
   }
   .main-2 {
     width: 200%;
@@ -1359,28 +1571,62 @@ body {
     margin-left: 15%;
   }
   .main-2 input {
-    width: 250px;
+    width: 300px;
     height: 50px;
+    margin-top: 50px;
+  }
+  .main-2 .h1-2 {
+    font-size: 100px;
+  }
+  .main-2 .h3-2 {
+    font-size: 70px;
+  }
+  .main-2 .div-contact {
+    height: 200px;
+    padding-top: 100px;
+  }
+  .main-2 .h4-2 {
+    font-size: 30px;
+  }
+  .main-2 .phone-class,
+.main-2 .map-class,
+.main-2 .msj-class {
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
   }
   .footer-2 {
-    width: 245%;
+    width: 275%;
     margin-top: 180%;
+  }
+  .a-2 {
+    font-size: 25px;
+    margin-right: 150px;
+  }
+  .img-whatsapp-footer2,
+.img-instagram-footer2,
+.img-facebook-footer2 {
+    width: 45px;
+    height: 45px;
+  }
+  .liquor-store-footer2 {
+    font-size: 25px;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   .header-2 {
-    width: 225%;
-    height: 100px;
+    width: 250%;
+    height: 150px;
   }
   .header-2 .menu2 {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 30px;
     gap: 15px;
-    font-size: 25px;
+    font-size: 35px;
     padding-left: 20px;
   }
   .header-2 .logo-name2 {
-    font-size: 30px;
+    font-size: 45px;
     padding-right: 20px;
   }
   .main-2 {
@@ -1390,10 +1636,46 @@ body {
   }
   .main-2 .div-contact {
     margin-top: 50%;
+    height: 300px;
+    padding-top: 100px;
+  }
+  .main-2 .msj-class,
+.main-2 .map-class,
+.main-2 .phone-class {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .main-2 .h4-2 {
+    font-size: 40px;
+  }
+  .main-2 .h1-2 {
+    font-size: 145px;
+    width: 110%;
+  }
+  .main-2 .h3-2 {
+    font-size: 80px;
+  }
+  .main-2 .put {
+    width: 300px;
+    height: 60px;
+  }
+  .main-2 .put2 {
+    height: 300px;
   }
   .footer-2 {
-    width: 230%;
+    width: 254%;
     margin-top: 190%;
+  }
+  .footer-2 .a-2 {
+    font-size: 30px;
+    margin-right: 100px;
+  }
+  .footer-2 .img-whatsapp-footer2,
+.footer-2 .img-instagram-footer2,
+.footer-2 .img-facebook-footer2 {
+    width: 40px;
+    height: 40px;
   }
 }
 @media only screen and (min-width: 961px) and (max-width: 1035px) {

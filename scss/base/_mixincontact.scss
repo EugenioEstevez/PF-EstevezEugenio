@@ -26,7 +26,7 @@
         gap: 20px;
     }
 
-    .input-class {
+    .input-class2 {
         @include space-around;
         gap: 40px;
         justify-content: space-evenly;
@@ -42,7 +42,7 @@
         font-family: 'Lobster Two', cursive;
     }
 
-    .h3 {
+    .h3-2 {
         @include font-family;
         font-size: 30px;
         display: flex;
@@ -50,7 +50,7 @@
         margin-bottom: 100px;
     }
 
-    .h1 {
+    .h1-2 {
         @include font-family;
         justify-content: center;
         padding-top: 100px;
