@@ -1,6 +1,6 @@
-.header {
+
+.header-4 {
     font-family: 'Roboto', sans-serif;
-    display: flex;
     /* para q el logo este en una esquina y las secciones en otra */
     justify-content: space-between;
     height: 70px;
@@ -9,18 +9,18 @@
     padding: 10px;
     padding-right: 50px;
 
-    .logo {
+    .logo4 {
         display: flex;
         align-items: center;
     }
 
-    .logo img {
+    .logo-img4 {
         height: 80px;
         width: 80px;
         display: flex;
     }
 
-    .logo-name {
+    .logo-name4 {
         color: white;
         font-family: 'Lobster Two', cursive;
         font-size: 30px;
@@ -30,13 +30,18 @@
         padding-right: 20px;
     }
 
-    .menu {
+    .menu4 {
         display: flex;
-        list-style: none;
+        padding-left: 950px;
+        position: relative;
+        bottom: 60px;
+         list-style: none;
         gap: 100px;
         font-size: 20px;
         color: white;
     }
+
+    
 
     a {
         text-decoration: none;
