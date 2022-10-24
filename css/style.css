@@ -188,7 +188,7 @@ body {
     grid-template-columns: 1fr;
   }
   .header-4 {
-    width: 130%;
+    width: 113%;
     height: 900px;
   }
   .header-4 .menu4 {
@@ -208,7 +208,8 @@ body {
   }
   .main-4 {
     display: grid;
-    width: 120%;
+    margin-left: 15%;
+    width: 60%;
     grid-template-columns: 1, 1fr;
   }
   .main-4 .img-amigos {
@@ -226,21 +227,24 @@ body {
   .main-4 .h4-class {
     font-size: 100px;
     margin-left: 200px;
+    width: 150%;
+    margin-left: -15%;
   }
   .main-4 .ul-lista2 {
-    width: 90%;
+    width: 180%;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: -18%;
   }
   .main-4 .h2-class {
     font-size: 100px;
     margin-right: 130px;
-    margin-left: 40px;
+    width: 170%;
+    margin-left: -80px;
   }
   .main-4 .principal-content {
     display: block;
     position: relative;
-    left: 35%;
+    left: 50%;
   }
   .footer-4 {
     width: 116%;
@@ -311,7 +315,7 @@ body {
     margin-left: 150%;
   }
   .footer-4 {
-    width: 280%;
+    width: 315%;
   }
   .footer-4 .a-footer4 {
     font-size: 40px;
@@ -905,7 +909,7 @@ body {
     grid-template-columns: 1fr;
   }
   .header-3 {
-    width: 220%;
+    width: 145%;
     height: 900px;
   }
   .header-3 .menu3 {
@@ -914,7 +918,7 @@ body {
     color: white;
     padding-right: 100px;
     position: relative;
-    right: 300px;
+    right: 100px;
   }
   .header-3 .logo-name3 {
     font-size: 100px;
@@ -924,7 +928,8 @@ body {
     width: 130px;
   }
   .main-3 {
-    width: 250%;
+    width: 140%;
+    margin-left: 90px;
     margin-top: 100%;
   }
   .main-3 .h1N {
@@ -932,7 +937,7 @@ body {
     margin-left: -10%;
   }
   .main-3 .pN {
-    font-size: 100px;
+    font-size: 95px;
     margin-left: -10%;
     margin-top: 100px;
   }
@@ -945,7 +950,7 @@ body {
   .footer-3 {
     display: grid;
     background-color: black;
-    width: 220%;
+    width: 145%;
     margin-top: 150%;
   }
   .footer-3 .liquor-store-footer3 {
@@ -953,6 +958,7 @@ body {
   }
   .footer-3 .aN {
     font-size: 30px;
+    margin-right: 50px;
   }
   .footer-3 .img-instagram-footer3,
 .footer-3 .img-whatsapp-footer3,
@@ -1226,9 +1232,9 @@ body {
     display: grid;
   }
   .main-1 .main-class {
-    margin-left: 100%;
     margin-top: 200px;
     font-size: 100px;
+    margin-left: 100%;
   }
   .main-1 nav {
     margin-left: 35%;
