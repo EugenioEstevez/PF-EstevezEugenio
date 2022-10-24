@@ -188,7 +188,7 @@ body {
     grid-template-columns: 1fr;
   }
   .header-4 {
-    width: 113%;
+    width: 105%;
     height: 900px;
   }
   .header-4 .menu4 {
@@ -209,7 +209,7 @@ body {
   .main-4 {
     display: grid;
     margin-left: 15%;
-    width: 60%;
+    width: 50%;
     grid-template-columns: 1, 1fr;
   }
   .main-4 .img-amigos {
@@ -247,7 +247,7 @@ body {
     left: 50%;
   }
   .footer-4 {
-    width: 116%;
+    width: 105%;
   }
   .footer-4 .a-footer4 {
     font-size: 30px;
@@ -1272,7 +1272,7 @@ body {
   .footer-1 {
     display: grid;
     margin-top: 100%;
-    width: 320%;
+    width: 325%;
   }
   .footer-1 .a1 {
     font-size: 25px;
@@ -1670,7 +1670,7 @@ body {
     height: 300px;
   }
   .footer-2 {
-    width: 254%;
+    width: 257%;
     margin-top: 190%;
   }
   .footer-2 .a-2 {
