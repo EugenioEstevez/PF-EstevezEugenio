@@ -8,6 +8,7 @@
     align-items: center;
     padding: 10px;
     padding-right: 50px;
+    width: 96%;
 
     .logo4 {
         display: flex;
@@ -32,11 +33,11 @@
 
     .menu4 {
         display: flex;
-        padding-left: 950px;
+        padding-left: 500px;
         position: relative;
         bottom: 60px;
          list-style: none;
-        gap: 100px;
+        gap: 80px;
         font-size: 20px;
         color: white;
     }
