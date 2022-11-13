@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -32,18 +36,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.img__header {
+.header-4 .img__header {
   width: 60px;
   height: 60px;
 }
-
-.nav {
+.header-4 .nav {
   background: #000;
   height: 80px;
   color: #fff;
 }
-
-.nav__container {
+.header-4 .nav__container {
   display: flex;
   height: 100%;
   width: 90%;
@@ -51,32 +53,26 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.nav__logo {
+.header-4 .nav__logo {
   font-family: "Lobster Two", cursive;
   font-size: 2.5em;
 }
-
-.nav__menu {
+.header-4 .nav__menu {
   display: grid;
   grid-auto-flow: column;
   gap: 3em;
 }
-
-.nav__item {
+.header-4 .nav__item {
   color: #fff;
   text-decoration: none;
 }
-
-.nav__item:hover {
+.header-4 .nav__item:hover {
   color: grey;
 }
-
-.nav__label, .nav__input {
+.header-4 .nav__label, .header-4 .nav__input {
   display: none;
 }
-
-.nav__input:checked + .nav__menu {
+.header-4 .nav__input:checked + .nav__menu {
   background: #000;
 }
 
@@ -362,18 +358,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.img__header {
+.header .img__header {
   width: 60px;
   height: 60px;
 }
-
-.nav {
+.header .nav {
   background: #000;
   height: 80px;
   color: #fff;
 }
-
-.nav__container {
+.header .nav__container {
   display: flex;
   height: 100%;
   width: 90%;
@@ -381,32 +375,26 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.nav__logo {
+.header .nav__logo {
   font-family: "Lobster Two", cursive;
   font-size: 2.5em;
 }
-
-.nav__menu {
+.header .nav__menu {
   display: grid;
   grid-auto-flow: column;
   gap: 3em;
 }
-
-.nav__item {
+.header .nav__item {
   color: #fff;
   text-decoration: none;
 }
-
-.nav__item:hover {
+.header .nav__item:hover {
   color: grey;
 }
-
-.nav__label, .nav__input {
+.header .nav__label, .header .nav__input {
   display: none;
 }
-
-.nav__input:checked + .nav__menu {
+.header .nav__input:checked + .nav__menu {
   background: #000;
 }
 
@@ -641,18 +629,16 @@ body {
   margin: 0;
 }
 
-.header-3 {
-  @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
-}
-.header-3 * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.header-3 body {
+
+body {
   font-family: "Roboto", sans-serif;
 }
+
 .header-3 .img__header {
   width: 60px;
   height: 60px;
@@ -924,18 +910,16 @@ body {
   margin: 0;
 }
 
-.header-1 {
-  @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap");
-}
-.header-1 * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.header-1 body {
+
+body {
   font-family: "Roboto", sans-serif;
 }
+
 .header-1 .img__header {
   width: 60px;
   height: 60px;
@@ -1202,18 +1186,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.img__header {
+.header-2 .img__header {
   width: 60px;
   height: 60px;
 }
-
-.nav {
+.header-2 .nav {
   background: #000;
   height: 80px;
   color: #fff;
 }
-
-.nav__container {
+.header-2 .nav__container {
   display: flex;
   height: 100%;
   width: 90%;
@@ -1221,32 +1203,26 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.nav__logo {
+.header-2 .nav__logo {
   font-family: "Lobster Two", cursive;
   font-size: 2.5em;
 }
-
-.nav__menu {
+.header-2 .nav__menu {
   display: grid;
   grid-auto-flow: column;
   gap: 3em;
 }
-
-.nav__item {
+.header-2 .nav__item {
   color: #fff;
   text-decoration: none;
 }
-
-.nav__item:hover {
+.header-2 .nav__item:hover {
   color: grey;
 }
-
-.nav__label, .nav__input {
+.header-2 .nav__label, .header-2 .nav__input {
   display: none;
 }
-
-.nav__input:checked + .nav__menu {
+.header-2 .nav__input:checked + .nav__menu {
   background: #000;
 }
 
