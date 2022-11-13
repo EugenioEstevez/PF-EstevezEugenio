@@ -27,11 +27,11 @@
 
     <!-- HEADER -->
     <header class="header-1">
-        <a href="index.html" class="logo1">
+        <!-- <a href="index.html" class="logo1">
             <img class="logo-img1" src="imagenes/logo6.png" alt="logo de la compañia">
             <div class="logo-name1">Liquor store</div>
         </a>
-        <nav>
+        <div>
             <ul class="menu1">
                 <li> <a href="index.html">Inicio</a></li>
                 <li> <a href="productos.html">Productos</a></li>
@@ -39,7 +39,31 @@
                 <li> <a href="contacto.html">Contacto</a></li>
                 <li> <a href="sobrenosotros.html">Sobre nosotros</a></li>
             </ul>
+        </div> -->
+
+        <nav class="nav">
+            <div class="nav__container">
+                <img src="imagenes/logo6.png" alt="" class="img__header">
+                <h1 class="nav__logo">LiquorStore</h1>
+
+                <label for="menu" class="nav__label">
+                    <img src="assets/menu.svg" alt="" class="nav__img">
+                </label>
+
+                <input type="checkbox" id="menu" class="nav__input">
+
+
+                <div class="nav__menu">
+                    <a href="index.html" class="nav__item">Inicio</a>
+                    <a href="productos.html" class="nav__item">Productos</a>
+                    <a href="comocomprar.html" class="nav__item">Como comprar</a>
+                    <a href="contacto.html" class="nav__item">Contacto</a>
+                    <a href="sobrenosotros.html" class="nav__item">Nosotros</a>
+                </div>
+            </div>
         </nav>
+
+
     </header>
     <!-- HEADER -->
 
@@ -49,7 +73,7 @@
             <h1>¿Cómo comprar?</h1>
         </div>
 
-        <nav>
+        <div>
             <div class="img-clasS">
                 <img class="img-1" src="imagenes/1.webp" alt="imagen de un numero uno">
                 <p class="compra-class">Elegí tus bebidas</p>
@@ -61,7 +85,7 @@
             </div>
 
 
-        </nav>
+        </div>
 
         <div class="precio-class">
             <h2 class="h2-clase">El precio <br>más bajo,<br> SIEMPRE <img class="h2-img"

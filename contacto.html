@@ -26,7 +26,7 @@
 <body>
     <!-- HEADER -->
     <header class="header-2">
-        <a href="index.html" class="logo2">
+        <!-- <a href="index.html" class="logo2">
             <img class="logo-img2" src="imagenes/logo6.png" alt="logo de la compañia">
             <div class="logo-name2">Liquor store</div>
         </a>
@@ -38,6 +38,29 @@
                 <li> <a href="contacto.html">Contacto</a></li>
                 <li> <a href="sobrenosotros.html">Sobre nosotros</a></li>
             </ul>
+        </nav> -->
+
+        
+        <nav class="nav">
+            <div class="nav__container">
+                <img src="imagenes/logo6.png" alt="" class="img__header">
+                <h1 class="nav__logo">LiquorStore</h1>
+
+                <label for="menu" class="nav__label">
+                    <img src="assets/menu.svg" alt="" class="nav__img">
+                </label>
+
+                <input type="checkbox" id="menu" class="nav__input">
+
+
+                <div class="nav__menu">
+                    <a href="index.html" class="nav__item">Inicio</a>
+                    <a href="productos.html" class="nav__item">Productos</a>
+                    <a href="comocomprar.html" class="nav__item">Como comprar</a>
+                    <a href="contacto.html" class="nav__item">Contacto</a>
+                    <a href="sobrenosotros.html" class="nav__item">Nosotros</a>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- HEADER -->
@@ -48,7 +71,7 @@
         <h1 class="h1-2">¡Tus opiniones nos ayudan a mejorar!</h1>
         <h3 class="h3-2">Dejá la tuya acá:</h3>
 
-        <nav class="input">
+        <form class="input">
             <div class="input-class2">
                 <input class="put" type="name" placeholder="Nombre">
                 <input class="put" type="lastname" placeholder="Apellido">
@@ -59,7 +82,7 @@
                 <input class="put2" type="text" placeholder="Opinion" style="width : 300px;">
                 <input class="put" type="submit" value="Opinar">
             </div>
-        </nav>
+        </form>
 
         <div class="div-contact">
             <h4 class="h4-2"> <img class="phone-class"

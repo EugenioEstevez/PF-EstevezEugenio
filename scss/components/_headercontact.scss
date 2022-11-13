@@ -1,46 +1,113 @@
 
-.header-2 {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    /* para q el logo este en una esquina y las secciones en otra */
-    justify-content: space-between;
-    height: 70px;
-    background-color:black;
-    align-items: center;
-    padding: 10px;
-    padding-right: 50px;
+// .header-2 {
+//     font-family: 'Roboto', sans-serif;
+//     display: flex;
+//     /* para q el logo este en una esquina y las secciones en otra */
+//     justify-content: space-between;
+//     height: 70px;
+//     background-color:black;
+//     align-items: center;
+//     padding: 10px;
+//     padding-right: 50px;
 
-.logo-name2 {
-    color: white;
-    font-family: 'Lobster Two', cursive;
-    font-size: 30px;
-}
+// .logo-name2 {
+//     color: white;
+//     font-family: 'Lobster Two', cursive;
+//     font-size: 30px;
+// }
 
 
-a {
-    text-decoration: none;
+// a {
+//     text-decoration: none;
     
+// }
+
+// .logo2 {
+//     display: flex;
+//     align-items: center;
+// }
+
+// .logo-img2 {
+//     height: 80px;
+//     width: 80px;
+//     display: flex;
+// }
+// .menu2 {
+//     display: flex;
+//     list-style: none;
+//     gap: 100px;
+//     font-size: 20px;
+//     color: white;
+// }
+// nav a {
+//     padding-right: 20px;
+// }
+
+// }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Libre+Franklin&family=Lobster+Two&family=Open+Sans:ital,wght@1,800&family=Playfair+Display&family=Raleway:ital@1&family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo2 {
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.img__header{
+    width: 60px;
+    height: 60px;
+}
+.nav{
+    background:#000;
+    height: 80px;
+    color: #fff;
+}
+
+.nav__container{
     display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
 }
 
-.logo-img2 {
-    height: 80px;
-    width: 80px;
-    display: flex;
-}
-.menu2 {
-    display: flex;
-    list-style: none;
-    gap: 100px;
-    font-size: 20px;
-    color: white;
-}
-nav a {
-    padding-right: 20px;
+.nav__logo{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5em;
 }
 
+.nav__menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
 }
+.nav__item{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__item:hover{
+    color: grey;
+
+}
+
+
+
+.nav__label, .nav__input{
+    display: none;
+}
+
+.nav__input:checked+.nav__menu {
+    background: #000;
+}
+
+
+

@@ -7,264 +7,205 @@
 
 /* MOBILE */
 /* MOBILE */
+
 @media only screen and (max-width:450px) {
-    .grid-container-4 {
-        display: grid;
-        grid-template-columns: (1fr);
-    }
 
     .header-4 {
+        width: 300%;
+        height: 150px;
 
-        width: 125%;
-        height: 1000px;
 
-        .menu4 {
-            display: grid;
+        background-color: black;
+
+        .nav__container {
+            height: 150px;
+
+        }
+
+        .nav__logo {
             font-size: 60px;
-            color: white;
-            padding-right: 100px;
-            position: relative;
-            left: 100px;
-            top: 50px;
-        }
-
-        .logo-name4 {
-            font-size: 100px;
-        }
-
-        .logo-img4 {
-            height: 130px;
-            width: 130px;
-        }
-    }
-
-    .main-4 {
-        display: grid;
-        margin-left: 15%;
-        width: 50%;
-        grid-template-columns: (1, 1fr);
-
-        .img-amigos {
-            display: none;
-        }
-
-        div.img-div {
-            display: grid;
-            grid-template-columns: (1, 1fr);
-        }
-
-        .img-h4 {
-            width: 500px;
-            height: 500px;
-            margin-left: 30%;
-        }
-
-        .h4-class {
-            font-size: 100px;
-            margin-left: 200px;
-            width: 150%;
-            margin-left: -15%;
 
         }
 
-        .ul-lista2 {
-            width: 180%;
-            font-size: 50px;
-            margin-left: -18%;
+        .img__header {
+            width: 80px;
+            height: 80px;
         }
 
-        .h2-class {
-            font-size: 100px;
-            margin-right: 130px;
-            width: 170%;
-            margin-left: -80px;
+        .nav__img {
+            width: 80px;
+            height: 80px;
         }
 
-        .principal-content {
+
+
+        .nav__label {
             display: block;
-            position: relative;
-            left: 50%;
-        }
-    }
+            cursor: pointer;
 
-    .footer-4 {
-        width: 132%;
 
-        .a-footer4 {
-            font-size: 30px;
-            padding-left: 500px;
         }
 
-        .liquor-store-footer4 {
-            font-size: 25px;
-        }
-    }
-}
-
-/* tablet */
-@media only screen and (min-width:451px) and (max-width:960px) {
-    .header-4 {
-        width: 305%;
-
-        height: 250px;
-
-        .logo4 {
-            padding-top: 20px;
-            width: 200px;
-        }
-
-        .menu4 {
-            position: relative;
+        .nav__menu {
+            margin-top: -120px;
+            height: 100%;
+            z-index: 2;
+            position: fixed;
             font-size: 40px;
-            gap: 70px;
-            left: -150px;
+            top: 120px;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
+
 
         }
 
-        .logo-name4 {
-            font-size: 60px;
-            width: 10%;
-            padding-top: 40px;
-        }
-
-        .logo-img4 {
-            width: 100px;
-            height: 100px;
+        .nav__input:checked+.nav__menu {
+            clip-path: circle(100% at center);
         }
     }
+
+
 
     .main-4 {
-        div.img-div {
-            margin-left: 150%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 50%;
+
+        .img-div {
             display: grid;
-            margin-bottom: 300px;
-            grid-template-columns: (2, 1fr);
+            margin: auto 80%;
+
+
+
         }
 
-        .img-h4 {
-            width: 700px;
-            height: 700px;
+        .principal-content {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            margin: auto 80%;
+
+
         }
 
         .h4-class {
-            font-size: 100px;
+            font-size: 80px;
+            margin-bottom: 50px;
+        }
+
+        .h2-class {
+            width: 150%;
+
+
+
+        }
+
+        .ul-lista2 {
+            height: 100px;
+            font-size: 35px;
             width: 150%;
         }
-
-        .img-amigos {
-            margin-top: 100px;
-            width: 700px;
-            height: 700px;
-        }
-
-        .ul-lista2 {
-            width: 280%;
-            font-size: 70px;
-            margin-left: 30px;
-            height: 250px;
-        }
-
-        .h2-class {
-            width: 300%;
-            font-size: 150px;
-        }
-
-        .principal-content {
-            margin-left: 150%;
-
-        }
     }
 
     .footer-4 {
-        width: 315%;
+
+        width: 300%;
 
         .a-footer4 {
-            font-size: 40px;
-        }
-
-        .liquor-store-footer4 {
             font-size: 30px;
         }
 
-        .img-whatsapp-footerI,
-        .img-facebook-footerI,
-        .img-instagram-footerI{
-            width: 40px;
-            height: 40px;
-        }
+
+
     }
-
-
-
 }
 
-@media only screen and (min-width:853px) and (max-width:960px) {
+@media only screen and (min-width:451px) and (max-width:960px) {
+
+    .grid-container-4 {
+        width: 100%;
+    }
+
     .header-4 {
-        width: 400%;
+        width: 175%;
 
-        .menu4 {
+        .img__header {
+            position: absolute;
+            left: -10px;
 
-            position: relative;
-            left: 10px;
-            width: 200%;
-            font-size: 70px;
         }
 
+        .nav__logo {
+            position: absolute;
+            font-size: 30px;
+
+        }
+
+        .nav__menu {
+            padding-left: 150px;
+            padding-top: 20px;
+        }
+
+        .nav__item {
+            font-size: 21px;
+        }
     }
 
     .main-4 {
+
+        .img-div {
+            display: grid;
+            margin-left: 100%;
+            gap: 100px;
+        }
+
         .ul-lista2 {
-            margin-left: 50%;
+            width: 150%;
+            margin-left: 10%;
+            font-size: 40px;
+
         }
 
         .h2-class {
-            margin-left: 50%;
+            width: 130%;
+            margin-left: 20%;
+
+            font-size: 70px;
+
+
+
 
         }
+
 
         .principal-content {
-            margin-right: -150%;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-left: 100%;
 
         }
 
-        .img-h4 {
-
-            margin-left: 50%;
-
-        }
-
-        .h4-class {
-            margin-left: 40%;
-
-        }
-
-        .img-amigos {
-            margin-left: 50%;
-
-        }
     }
 
     .footer-4 {
-        width: 378%;
+        width: 175%;
+
+        .a-footer4 {
+            font-size: 20px;
+        }
     }
 
 }
 
-@media only screen and (min-width:961px) and (max-width:1200px) {
-
-    .header-4{
-        width: 120%
-    }
-
-
-
-}
-
-
-
-
-
-
+/* Cierra Inicio */
 
 
 
@@ -278,342 +219,149 @@
 @import 'base/mixinprod';
 @import "components/footerprod";
 
-
-/* mobile */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width:450px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
     }
 
-    /* ARRANCA HEADER */
     .header {
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-        display: grid;
-        width: 270%;
-        height: 100%;
+        width: 110%;
 
-        a {
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: red;
-        }
-
-        .logo-name0 {
-            font-size: 150px;
-            position: relative;
-            left: 150px;
-            bottom: 70px;
+        .nav__label {
+            display: block;
+            cursor: pointer;
 
         }
 
-        .logo0 {
-            display: grid;
-            grid-template-columns: 80px 30px;
-            width: 20%;
+        .nav__menu {
+            margin-top: -120px;
+            z-index: 2;
+            position: fixed;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
+            justify-content: space-evenly;
+            width: 100%;
+            left: 0;
+            top: 120px;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            padding-top: 30px;
+            
+            
         }
 
-        .logo-img0 {
-            height: 350px;
-            width: 300px;
-            position: relative;
-            right: 50px;
-            bottom: 70px;
-
-        }
-
-        .menu0 {
-            display: grid;
-            grid-template-columns: (2, 100px);
-            font-size: 80px;
-            color: white;
-            position: relative;
-            left: 550px;
-            bottom: 100px;
+        .nav__input:checked+.nav__menu {
+            clip-path: circle(100% at center);
         }
     }
-
-
 
     .main {
-        width: 235%;
-
-        .menu-main {
-            display: grid;
-            gap: 350px;
-            padding-bottom: 350px;
-            margin-left: 50%;
-
-
-        }
-
+        .menu-main,
         .menu-main2 {
-            gap: 350px;
             display: grid;
-            margin-left: 50%;
-
-        }
-
-        .bebida {
-            width: 400px;
-            height: 400px;
-        }
-
-        .bebida-1 {
-            font-size: 50px;
-            width: 300px;
-            height: 200px;
-            padding-bottom: 100px;
-        }
-
-        .input-text {
-            font-size: 160px;
-        }
-
-        .Input {
-            margin-top: 100px;
-            margin-left: 100px;
-        }
-
-        .input {
-            margin-left: 20%;
-
-
-        }
-
-        button {
-            width: 20%;
-            font-size: 40px;
-            height: 50px;
-            margin-left: 20px;
-
+            gap: 80px;
+            margin-left: 35%;
         }
 
         .lista {
-            background-color: lightgrey;
-            width: 120%;
-            margin-bottom: 100px;
-            padding-bottom: 100px;
-            padding-top: 100px;
-            font-size: 150px;
-
+            width: 110%
         }
     }
 
     .footer {
+        width: 110%;
+
         display: grid;
-        background-color: black;
-        width: 280%;
-        margin-top: 100%;
 
-        .img-footer {
-            padding-left: 60px;
+        .lista-footer0 {
+            position: absolute;
+            margin-right: 30px;
         }
 
-        .a-footer0 {
-            font-size: 30px;
-        }
-
-        .liquor-store-footer0 {
-            font-size: 30px;
-        }
 
         .img-whatsapp-footer0,
         .img-instagram-footer0,
         .img-facebook-footer0 {
-            width: 45px;
-            height: 45px;
+            width: 20px;
+            height: 20px;
+
         }
-
-        .footer-logo-class0 {
-            width: 100px;
-            height: 100px;
-        }
-
-
     }
-
-    ul.menu {
-        font-size: 30px;
-        align-items: center;
-        position: relative;
-        bottom: 20px;
-        left: 20px;
-    }
-
-
 }
 
 @media only screen and (min-width:451px) and (max-width:960px) {
 
-    div.grid-container {
-        width: 130%;
-    }
-
     .header {
-        width: 300%;
-        height: 200px;
+        width: 175%;
 
-        .logo0 {
-            position: relative;
-            right: 40px;
-        }
-
-
-        .logo-name0 {
-            font-size: 80px;
-            width: 20%;
-        }
-
-
-        .logo-img0 {
-            width: 150px;
-            height: 150px;
+        .img__header {
+            position: absolute;
+            left: -10px;
 
         }
 
-        .menu0 {
-            position: relative;
-            left: 100px;
+        .nav__logo {
+            position: absolute;
+            font-size: 30px;
+
         }
 
-        .a {
-            font-size: 55px;
-            position: relative;
-            right: 100px;
-            top: 10px;
+        .nav__menu {
+            padding-left: 150px;
+            padding-top: 20px;
         }
+
+        .nav__item {
+            font-size: 20px;
+        }
+
     }
 
     .main {
-        position: relative;
-        left: 50%;
-        width: 200%;
-        display: grid;
-        grid-template-columns: (2, 1fr);
-
         .lista {
-            width: 150%;
-            margin-left: -600px;
-            font-size: 180px;
-
-        }
-
-        .input-text {
-            font-size: 150px;
-        }
-
-        .input {
-            margin-left: 10%;
-        }
-
-        button {
-            font-size: 70px;
-            margin-top: 20px;
-            margin-left: 50px;
-        }
-
-
-
-        .menu-main {
-            margin-top: 300px;
-            margin-bottom: 300px;
-            gap: 100px;
-            margin-left: 100px;
-        }
-
-        .menu-main2 {
-            gap: 100px;
-            margin-left: 100px;
-            margin-top: 50%;
-
-
+            width: 175%;
         }
 
         .bebida-1 {
-            font-size: 70px;
-            width: 30%;
-            position: relative;
-            right: 80px;
-
+            font-size: 25px;
         }
 
-        .bebida {
-            width: 500px;
-            height: 500px;
+        .menu-main {
+            margin-bottom: 50px;
         }
 
 
+        .menu-main,
+        .menu-main2 {
+            grid-template-columns: repeat(2, 1fr);
+            display: grid;
+            gap: 150px;
+            column-gap: 100%;
+        }
 
+        .input,
+        .input-text,
+        .button {
+            margin-left: 15%;
+            width: 150%
+        }
     }
 
     .footer {
-        width: 305%;
-        margin-top: 200%;
+        width: 175%;
 
         .lista-footer0 {
-            padding-top: 10px;
+            margin-right: 75px
         }
 
-        .a-footer0 {
-            font-size: 40px;
-        }
-
-        .liquor-store-footer0 {
-            font-size: 40px;
-        }
-
-        .img-facebook-footer,
-        .img-instagram-footer,
-        .img-whatsapp-footer {
-            width: 50px;
-            height: 50px;
-        }
-
-        .footer-logo-class0 {
-            width: 100px;
-            height: 100px;
-        }
-    }
-
-
-
-
-}
-
-
-@media only screen and (min-width:961px) and (max-width:1077px) {
-
-
-    .header {
-        width: 130%;
-
-        .logo-name {
-            font-size: 15px;
-            padding-right: 20px;
-
-        }
-    }
-
-    .main {
-        width: 136%;
-
-        .lista {
-            width: 100%;
-        }
-    }
-
-    .footer {
-        margin-top: 100%;
-        width: 136%
     }
 }
+
+/* CIERRA Productos*/
+
+
+
 
 
 
@@ -631,26 +379,54 @@
 
     .header-3 {
 
-        width: 145%;
-        height: 900px;
+        .nav__container {
+            width: 152%;
+            background-color: black;
+            height: 120px;
 
-        .menu3 {
-            display: grid;
-            font-size: 60px;
-            color: white;
-            padding-right: 100px;
-            position: relative;
-            right: 100px;
         }
 
-        .logo-name3 {
-            font-size: 100px;
+        .nav__logo {
+            font-size: 70px;
         }
 
-        .logo-img3 {
-            height: 130px;
-            width: 130px;
+        .nav__img,
+        .img__header {
+            height: 70px;
+            width: 70px;
         }
+
+        .nav__item {
+            font-size: 50px;
+        }
+
+        .nav__label {
+            display: block;
+            cursor: pointer;
+
+        }
+
+        .nav__menu {
+            margin-top: -120px;
+            position: fixed;
+            top: 100px;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
+
+
+        }
+
+        .nav__input:checked+.nav__menu {
+            clip-path: circle(100% at center);
+        }
+
     }
 
     .main-3 {
@@ -712,9 +488,31 @@
 
 @media only screen and (min-width:451px) and (max-width:960px) {
     .header-3 {
-        width: 265%;
+        width: 275%;
         gap: 50px;
-        height: 250px;
+        height: 150px;
+        background-color: black;
+
+
+        .nav__container {
+            height: 150px;
+        }
+
+        .nav__item {
+            font-size: 35px;
+
+        }
+
+        .nav__logo {
+            margin-right: 40px;
+            font-size: 50px;
+        }
+
+
+
+
+
+
 
         .menu3 {
             padding-left: 100px;
@@ -749,7 +547,7 @@
 
     .footer-3 {
         width: 275%;
-        margin-top: 160%;
+        margin-top: 186%;
 
         .aN {
             font-size: 30px;
@@ -793,266 +591,131 @@
 
     /* ARRANCA HEADER */
     .header-1 {
-        background-color: black;
-        font-family: 'Roboto', sans-serif;
-        display: grid;
-        width: 310%;
-        height: 80%;
+        width: 1000px;
 
-        a {
-            text-decoration: none;
-        }
 
-        a:hover {
-            color: red;
-        }
 
-        .logo-name1 {
-            font-size: 150px;
-            position: relative;
-            left: 150px;
-            bottom: 70px;
+
+        .nav__label {
+            display: block;
+            cursor: pointer;
 
         }
 
-        .logo1 {
-            display: grid;
-            grid-template-columns: 80px 30px;
-            width: 20%;
+        .nav__menu {
+            margin-top: -120px;
+            position: fixed;
+            top: 80px;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            padding-top: 30px;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
         }
 
-        .logo-img1 {
-            height: 350px;
-            width: 300px;
-            position: relative;
-            right: 50px;
-            bottom: 70px;
-
+        .nav__item{
+            font-size: 30px;
         }
 
-        .menu1 {
-            display: grid;
-            grid-template-columns: (2, 100px);
-            font-size: 80px;
-            color: white;
-            position: relative;
-            left: 550px;
-            bottom: 100px;
+        .nav__input:checked+.nav__menu {
+            clip-path: circle(100% at center);
         }
     }
 
     .main-1 {
-        width: 100%;
-        display: grid;
+        width: 1000px;
+        margin-bottom: 520px;
 
         .main-class {
-            margin-top: 200px;
-            font-size: 100px;
-            margin-left: 100%;
-
-        }
-
-        nav {
-            margin-left: 35%;
-            margin-top: 300px;
+            font-size: 60px;
         }
 
         .img-clasS {
-            display: grid;
-            gap: 150px;
-            margin-left: 50%;
-
-
+            margin-right: 70px;
         }
 
-        .img-1,
-        .img-2,
-        .img-3 {
-            width: 400px;
-            height: 400px;
-
-        }
-
-        .compra-class {
-            display: grid;
-            font-size: 100px;
-            width: 200%;
-
-        }
 
 
         .precio-class {
-            margin-left: 100px;
-
+            width: 100%;
         }
 
         .h2-clase {
-            height: 500px;
-            width: 200%;
-            font-size: 130px;
-            padding-left: 50px;
-            margin-left: -15%;
+            font-size: 80px;
         }
 
-        .h2-img {
-            height: 100%;
-
-        }
     }
 
     .footer-1 {
-        display: grid;
-        margin-top: 100%;
-        width: 325%;
+        width: 1000px;
 
-        .a1 {
-            font-size: 25px;
+        .lista-footer {
+            margin-right: 80px;
+            margin-top: 20px;
         }
 
+        .a1 {
+            font-size: 20px;
 
-
-
+        }
     }
 }
 
 /* TABLET */
 
 @media only screen and (min-width:451px) and (max-width:960px) {
-    .header-1 {
-        width: 410%;
-        height: 250px;
-
-        .menu1 {
-            padding-left: 40px;
-            font-size: 80px;
-            gap: 50px;
-            padding-top: 80px;
-        }
-
-        .logo-name1 {
-            font-size: 70px;
-            padding-top: 60px;
-        }
-
-        .logo-img1 {
-            padding-top: 60px;
-            width: 100px;
-            height: 100px;
-        }
-    }
-
-    .main-1 {
-        width: 215%;
-        display: grid;
-
-        .main-class {
-            font-size: 135px;
-            width: 200%;
-            margin-left: -25%;
-        }
-
-        .compra-class {
-            font-size: 100px;
-            margin-left: -25%;
-            width: 20%;
-            margin-top: 20%;
-        }
-
-        .img-1,
-        .img-2,
-        .img-3 {
-            width: 500px;
-            height: 500px;
-
-
-        }
-
-        .img-clasS {
-            width: 150%;
-            margin-left: -10%;
-
-        }
-
-        .h2-clase {
-            width: 120%;
-            font-size: 200px;
-            height: 700px;
-
-        }
-
-        .h2-img {
-            height: 700px;
-            width: 1000px;
-        }
-
-
-    }
-
-    .footer-1 {
-        width: 400%;
-        margin-top: 210%;
-
-        .a1 {
-            font-size: 50px;
-        }
-
-        .img-instagram-footer1,
-        .img-whatsapp-footer1,
-        .img-facebook-footer1 {
-            width: 80px;
-            height: 80px;
-        }
-
-        .footer-logo-class1 {
-            width: 200px;
-            height: 200px;
-        }
-
-        .liquor-store-footer1 {
-            font-size: 50px;
-        }
-    }
-
-    .h2-clase {
-        width: 85%;
-
-    }
-
-    .precio-class {
-        margin-bottom: 50px;
-        margin-top: 500px;
-        margin-left: 35px;
-    }
-}
-
-@media only screen and (min-width:961px) and (max-width:1020px) {
-    .header-1 {
-        width: 106%;
-    }
-
-    .footer-1 {
-        margin-top: 250px;
-        width: 112%;
-    }
-
-    .h2-clase {
-        margin-left: 100px;
-
-    }
-
-    .h2-img {
-        height: 520px;
-
-    }
-
-    .precio-class {
-        width: 112%;
-        height: 520px;
+    .header-1{
+        width: 950px;
         background-color: black;
+        height: 150px;
+
+
+        .nav__container{
+            height: 150px;
+        }
+
+        .nav__logo{
+            position: absolute;
+            left: 50px;
+        }
+
+        .img__header{
+            position: absolute;
+            left: 0;
+        }
+
+        .nav__menu{
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+
+        .nav__item{
+            font-size: 24px;
+        }
     }
+
+    .main-1{
+        width: 800px;
+
+        .h2-clase{
+            font-size: 85px;
+            width: 950px;
+        }
+    }
+
+    .footer-1{
+        width: 950px;
+
+    }
+
+
 }
+
+
 
 /* SECCION CONTACTO */
 
@@ -1064,80 +727,90 @@
 
 @media only screen and (max-width:450px) {
     .header-2 {
+        width: 400%;
+        height: 150px;
         background-color: black;
-        font-family: 'Roboto', sans-serif;
-        display: grid;
-        width: 260%;
-        height: 850px;
 
-        a {
-            text-decoration: none;
+        .nav__container {
+            height: 150px;
         }
 
-        a:hover {
-            color: red;
+        .nav__logo {
+            font-size: 60px;
         }
 
-        .logo-name2 {
-            font-size: 150px;
-            position: relative;
-            left: 150px;
-            bottom: 70px;
+        .img__header {
+            width: 80px;
+            height: 80px;
+        }
 
+        .nav__img {
+            width: 80px;
+            height: 80px;
         }
 
 
 
-        .logo2 {
-            display: grid;
-            grid-template-columns: 80px 30px;
-            width: 20%;
-            align-items: center;
-            padding-top: 30px;
-        }
-
-        .logo-img2 {
-            height: 350px;
-            width: 300px;
-            position: relative;
-            right: 50px;
-            bottom: 70px;
+        .nav__label {
+            display: block;
+            cursor: pointer;
 
         }
 
-        .menu2 {
-            display: grid;
-            grid-template-columns: (2, 100px);
+        .nav__item{
             font-size: 50px;
-            color: white;
-            position: relative;
-            left: 700px;
-            bottom: 300px;
         }
+
+        .nav__menu {
+            margin-top: -100px;
+            position: fixed;
+            top: 80px;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            justify-content: space-evenly;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
+
+
+        }
+
+        .nav__input:checked+.nav__menu {
+            clip-path: circle(100% at center);
+        }
+
     }
 
     .main-2 {
-        width: 200%;
+        margin-bottom: 1620px;
+        margin-left: 25%;
         display: grid;
-        margin-left: 15%;
 
-        input {
-            width: 300px;
-            height: 50px;
-            margin-top: 50px;
+        .input-class2 {
+            margin-right: 10%;
+        }
+
+
+        .put,
+        .put2 {
+            font-size: 30px;
         }
 
         .h1-2 {
-            font-size: 100px;
+            font-size: 150px;
         }
 
         .h3-2 {
-            font-size: 70px;
+            font-size: 100px;
         }
 
         .div-contact {
-            height: 200px;
-            padding-top: 100px;
+            margin-right: 10%;
+
+
         }
 
         .h4-2 {
@@ -1156,13 +829,11 @@
     }
 
     .footer-2 {
-        width: 275%;
-        margin-top: 180%;
-
+        width: 400%;
     }
 
     .a-2 {
-        font-size: 25px;
+        font-size: 30px;
         margin-right: 150px;
     }
 
@@ -1183,8 +854,25 @@
 
 @media only screen and (min-width:451px) and (max-width:960px) {
     .header-2 {
-        width: 250%;
+        width: 257%;
         height: 150px;
+        background-color: black;
+
+        .nav__item {
+            font-size: 28px;
+        }
+
+        .nav__logo {
+            margin-right: 25px;
+        }
+
+
+
+
+
+        .nav__container {
+            height: 150px;
+        }
 
         .menu2 {
             width: 100%;
@@ -1202,13 +890,19 @@
 
     .main-2 {
         width: 220%;
-        margin-left: 5%;
+        margin-left: 15%;
         margin-top: 50%;
 
+
+        .put,
+        .put2 {
+            font-size: 50px;
+
+        }
+
         .div-contact {
-            margin-top: 50%;
-            height: 300px;
-            padding-top: 100px;
+            margin-left: 5%;
+
         }
 
         .msj-class,
